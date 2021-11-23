@@ -1,0 +1,36 @@
+.hero_wrapper{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.hero_container{
+    width: 70rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero_image_container{
+    width: 500px;
+    margin-top: 2rem;
+
+}
+
+.hero_image {
+    width: 100%;
+}
+
+.span_text {
+    font-size: 1.1rem;
+    color: var(--dark-grey);
+    font-weight: 500;
+}
+
+.hero_heading{
+    font-size: 1.7rem;
+    margin-top: 0.5rem;
+}
