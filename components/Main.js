@@ -6,8 +6,8 @@ export default function Main() {
     return (
         <div className={mainStyles.main_wrapper}>
             <div className={mainStyles.main_container}>
-                <div className={mainStyles.main_content}>
                     <h1>News</h1>
+                <div className={mainStyles.main_content}>
                     <div className={mainStyles.main_news}>
                         <div className={mainStyles.main_card_container}>
                             <div className={mainStyles.main_image_background}>
@@ -67,8 +67,47 @@ export default function Main() {
                             </div>
                         </div>
                     </div>
-                        <div className={mainStyles.events_container}>
-                            <h1>Events</h1>
+                        <div className={mainStyles.events_wrapper}>
+                            <div className={mainStyles.events_heading}>
+                                <h1>Events</h1>
+                            </div>
+                            <div className={mainStyles.events_container}>
+                                <a href='/' className={mainStyles.event_item}>
+                                    <div className={mainStyles.event_date}>
+                                        24 November, 17:24
+                                    </div>
+                                    <p className={mainStyles.events_text}>International partnerships advance knowledge, but universities must be alert to risks, says Professor Stephen J Toope.
+                                    </p>
+                                </a>
+                                <a href='/' className={mainStyles.event_item}>
+                                    <div className={mainStyles.event_date}>
+                                        24 November, 17:24
+                                    </div>
+                                    <p className={mainStyles.events_text}>International partnerships advance knowledge, but universities must be alert to risks, says Professor Stephen J Toope.
+                                    </p>
+                                </a>
+                                <a href='/' className={mainStyles.event_item}>
+                                    <div className={mainStyles.event_date}>
+                                        24 November, 17:24
+                                    </div>
+                                    <p className={mainStyles.events_text}>International partnerships advance knowledge, but universities must be alert to risks, says Professor Stephen J Toope.
+                                    </p>
+                                </a>
+                                <a href='/' className={mainStyles.event_item}>
+                                    <div className={mainStyles.event_date}>
+                                        24 November, 17:24
+                                    </div>
+                                    <p className={mainStyles.events_text}>International partnerships advance knowledge, but universities must be alert to risks, says Professor Stephen J Toope.
+                                    </p>
+                                </a>
+                                <a href='/' className={mainStyles.event_item}>
+                                    <div className={mainStyles.event_date}>
+                                        24 November, 17:24
+                                    </div>
+                                    <p className={mainStyles.events_text}>International partnerships advance knowledge, but universities must be alert to risks, says Professor Stephen J Toope.
+                                    </p>
+                                </a>
+                            </div>
                         </div>
 
 
