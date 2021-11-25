@@ -25,6 +25,7 @@
     position: relative;
     margin-top: 1rem;
     margin-right: 1rem;
+    overflow: hidden;
     
 }
 .main_image1 { 
@@ -38,6 +39,7 @@
     height: 20rem;
     position: relative;
     margin-top: 1rem;
+    overflow: hidden;
 
 }
 .main_card_container_3 {
@@ -46,7 +48,7 @@
     position: relative;
     margin-top: 1rem;
     margin-right: 1rem;
-
+    overflow: hidden;
 }
 
 .main_image_background{
@@ -63,6 +65,13 @@
     width: 100%;
     z-index: 2;
 }
+.main_image_background:hover{
+    transition: .8s ease-in-out ;
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+
+}
+
 
 .h2_text{
     font-size: 1rem;
@@ -128,13 +137,24 @@
 }
 
 .event_item{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     display: block;
     position: relative;
+    margin-top: 13px;
 }
 
 
 .events_text:hover{
     color: #0348b0;
 
+}
+
+.more_news{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+
+}
+.more_events{
+    margin-top: 0;
 }
