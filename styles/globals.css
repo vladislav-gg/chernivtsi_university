@@ -17,6 +17,7 @@ a {
 :root{
   --tw-text-opacity: 1;
   --dark-grey: rgba(31, 41, 55, var(--tw-text-opacity));	
+  --major-item-shadow: rgba(125,143,179,0.15)
 }
 
 

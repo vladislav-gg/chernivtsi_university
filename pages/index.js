@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Navigation from '../components/Navigation'
 import Hero from '../components/Hero'
 import Main from '../components/Main'
+import Majors from '../components/Majors'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Navigation/>
         <Hero/>
         <Main/>
+        <Majors/>
       </main>
     </div>
   )
