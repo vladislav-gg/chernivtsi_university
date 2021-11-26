@@ -1,5 +1,8 @@
 import React from 'react'
 import majorStyles from '../styles/Majors.module.css'
+import Link from 'next/link'
+
+
 
 export default function Majors() {
     return (
@@ -13,8 +16,10 @@ export default function Majors() {
                         <div className={majorStyles.major}>
                             <div className={majorStyles.major_number}>01</div>    
                             <div className={majorStyles.major_title}>Digital world and artificial</div>
-                        </div>    
-                        <a className={majorStyles.major_button}>Click me to expand</a>
+                        </div>
+                        <Link href='/'>    
+                            <a className={majorStyles.major_button}>Click me to expand</a>
+                        </Link>
                     </div>
                         <div className={majorStyles.major_hover_image}>
                             <img className={majorStyles.major_image} src='/images/1st_image.jpeg'></img>

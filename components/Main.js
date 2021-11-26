@@ -1,5 +1,6 @@
 import React from 'react'
 import mainStyles from '../styles/Main.module.css'
+import Link from 'next/link'
 
 
 export default function Main() {
@@ -76,47 +77,57 @@ export default function Main() {
                                 <h1>Events</h1>
                             </div>
                             <div className={mainStyles.events_container}>
-                                <a href='/' className={mainStyles.event_item}>
-                                    <div className={mainStyles.event_date}>
-                                        24 November, 17:24
-                                    </div>
-                                    <p className={mainStyles.events_text}>International partnerships advance knowledge, but universities must be alert to risks, says Professor Stephen J Toope.
-                                    </p>
-                                </a>
-                                <a href='/' className={mainStyles.event_item}>
-                                    <div className={mainStyles.event_date}>
-                                        24 November, 17:24
-                                    </div>
-                                    <p className={mainStyles.events_text}>International partnerships advance knowledge, but universities must be alert to risks, says Professor Stephen J Toope.
-                                    </p>
-                                </a>
-                                <a href='/' className={mainStyles.event_item}>
-                                    <div className={mainStyles.event_date}>
-                                        24 November, 17:24
-                                    </div>
-                                    <p className={mainStyles.events_text}>International partnerships advance knowledge, but universities must be alert to risks, says Professor Stephen J Toope.
-                                    </p>
-                                </a>
-                                <a href='/' className={mainStyles.event_item}>
-                                    <div className={mainStyles.event_date}>
-                                        24 November, 17:24
-                                    </div>
-                                    <p className={mainStyles.events_text}>International partnerships advance knowledge, but universities must be alert to risks, says Professor Stephen J Toope.
-                                    </p>
-                                </a>
-                                <div className={mainStyles.more_events}>
-                                    <a href='/'>
-                                        <h2>Show all events &#8594;</h2>
+                                <Link  href='/'>
+                                    <a className={mainStyles.event_item}>
+                                        <div className={mainStyles.event_date}>
+                                            24 November, 17:24
+                                        </div>
+                                        <p className={mainStyles.events_text}>International partnerships advance knowledge, but universities must be alert to risks, says Professor Stephen J Toope.
+                                        </p>
                                     </a>
+                                </Link>
+                                <Link  href='/'>
+                                    <a className={mainStyles.event_item}>
+                                        <div className={mainStyles.event_date}>
+                                            24 November, 17:24
+                                        </div>
+                                        <p className={mainStyles.events_text}>International partnerships advance knowledge, but universities must be alert to risks, says Professor Stephen J Toope.
+                                        </p>
+                                    </a>
+                                </Link>
+                                <Link  href='/'>
+                                    <a className={mainStyles.event_item}>
+                                        <div className={mainStyles.event_date}>
+                                            24 November, 17:24
+                                        </div>
+                                        <p className={mainStyles.events_text}>International partnerships advance knowledge, but universities must be alert to risks, says Professor Stephen J Toope.
+                                        </p>
+                                    </a>
+                                </Link>
+                                <Link  href='/'>
+                                    <a className={mainStyles.event_item}>
+                                        <div className={mainStyles.event_date}>
+                                            24 November, 17:24
+                                        </div>
+                                        <p className={mainStyles.events_text}>International partnerships advance knowledge, but universities must be alert to risks, says Professor Stephen J Toope.
+                                        </p>
+                                    </a>
+                                </Link>
+                                <div className={mainStyles.more_events}>
+                                    <Link href='/'>
+                                        <a><h2>Show all events &#8594;</h2></a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
                         {/* END OF EVENTS SIDE BAR */}
                 </div>
                         <div className={mainStyles.more_news}>
-                            <a href='/'>
-                                <h2>Show all news &#8594;</h2>
-                            </a>
+                            <Link href='/'>
+                                <a>
+                                    <h2>Show all news &#8594;</h2>
+                                </a>
+                            </Link>
                         </div>
             </div>    
         </div>
