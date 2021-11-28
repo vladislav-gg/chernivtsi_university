@@ -4,7 +4,7 @@ import Navigation from '../components/Navigation'
 import Hero from '../components/Hero'
 import Main from '../components/Main'
 import Majors from '../components/Majors'
-
+import Lectures from '../components/Lectures'
 export default function Home() {
   return (
     <div>
@@ -21,7 +21,7 @@ export default function Home() {
         <Navigation/>
         <Hero/>
         <Main/>
-        <Majors/>
+        <Lectures/>
       </main>
     </div>
   )

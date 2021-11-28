@@ -3,7 +3,6 @@ import majorStyles from '../styles/Majors.module.css'
 import Link from 'next/link'
 
 
-
 export default function Majors() {
     return (
         <div className={majorStyles.major_wrapper}>

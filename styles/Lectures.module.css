@@ -1,0 +1,26 @@
+.lecture_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px
+}
+
+.lecture_container{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.lecture_info{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.lecture_date{
+    display: flex;
+    
+}
