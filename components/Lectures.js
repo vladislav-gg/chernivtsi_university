@@ -17,12 +17,12 @@ export default function Lectures() {
                                 <div className={lectureStyles.lecture_date_digit}>01</div>
                                 <div className={lectureStyles.lecture_more_date}>
                                     <div className={lectureStyles.lecture_monty}>December 2021</div>
-                                    <div className={lectureStyles.lecture_day}>Wednesday</div>
+                                    <div className={lectureStyles.lecture_day}>Wed</div>
                                 </div>
                             </div>  
 
                             <div className={lectureStyles.lecture_image}>
-                                <img src='/images/1st_image.jpeg'></img>
+                                <img className={lectureStyles.image} src='/images/1st_image.jpeg'></img>
                             </div>  
                             <div className={lectureStyles.lecture_description}>
                                 <div className={lectureStyles.lecture_tags}>
@@ -30,7 +30,7 @@ export default function Lectures() {
                                     <div className={lectureStyles.tag}>Must be enrolled in design class</div>
                                 </div>
                                 <div className={lectureStyles.lecture_title}>
-                                    <Link href='/'><a className={lectureStyles.styled_title}>Emil Ruder and art of typography</a></Link>
+                                    <Link href='/'><a className={lectureStyles.styled_title}>Emil Ruder. Typography.</a></Link>
                                 </div>
                             </div>
                             <div className={lectureStyles.lecture_add_info}>

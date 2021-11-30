@@ -3,7 +3,9 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 70px
+    margin-top: 70px;
+    position: relative;
+    
 }
 
 .lecture_container{
@@ -16,11 +18,110 @@
 .lecture_info{
     display: flex;
     justify-content: space-between;
-
+    align-items: flex-start;
+    border-top: 1px solid rgba(182,190,192,.8);
+    padding: 3.9rem 0;
 
 }
 
 .lecture_date{
     display: flex;
+    align-items: center;
+
+}
+
+.lecture_date_digit{
+    font-size: 2.4rem;
+
+}
+
+.lecture_more_date{
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.lecture_date_digit::after{
+    content: '';
+    background: rgba(182,190,192,.5);
+    width: 1px;
+    height: 2rem;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 9px;
+
+}
+
+
+
+.lecture_image{
+    max-width: 400px;
+    overflow: hidden;
+
+}
+
+.image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    .lecture_image {
+      min-width: 100%;
+    }
+  }
+@media screen and (max-width: 900px) {
+    .lecture_image {
+      min-width: 100%;
+    }
+  }
+  
+
+
+.lecture_tags{
+    display: flex;
     
+}
+
+
+.tag{
+    margin-right: 10px;
+    border: rgba(182,190,192,.8);
+    border-radius: 1px;
+    border-width: 1px;
+    border-style:solid;
+    padding: 7px 20px;
+}
+
+.lecture_title{
+    font-size: 2.1rem;
+    margin-top: 30px;
+    font-weight: 500;
+
+}
+.lecture_title:hover{
+    color: #0348b0;
+
+}
+
+.lecture_add_info{
+    width: 200px;
+
+}
+
+.lecture_time_gmt{
+    font-size: 1.5rem;
+    
+}
+
+.lecture_address{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: rgba(88,93,95,.7);
+    font-weight: 400;
+    line-height: 1.9rem;
+
+
 }
