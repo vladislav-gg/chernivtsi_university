@@ -22,7 +22,15 @@ export default function Lectures() {
                             </div>  
 
                             <div className={lectureStyles.lecture_image}>
-                                <img className={lectureStyles.image} src='/images/1st_image.jpeg'></img>
+                                <Image
+                                    src='/images/ruder_book.jpg' 
+                                    alt='title-image' 
+                                    layout='fill'
+                                    objectFit="cover" 
+                                    className={lectureStyles.image}
+                                 ></Image>
+
+                                {/* <img className={lectureStyles.image} src='/images/emil_ruder.jpg'></img> */}
                             </div>  
                             <div className={lectureStyles.lecture_description}>
                                 <div className={lectureStyles.lecture_tags}>
@@ -31,6 +39,12 @@ export default function Lectures() {
                                 </div>
                                 <div className={lectureStyles.lecture_title}>
                                     <Link href='/'><a className={lectureStyles.styled_title}>Emil Ruder. Typography.</a></Link>
+                                </div>
+                                <div className={lectureStyles.p_container}>
+                                    <Link href='/'><p className={lectureStyles.styled_p}>After twenty-five years of teaching, Ruder published a heavily illustrated book capturing his ideas, methods and approach. The book, Typographie: A Manual for Design.
+
+                                    </p>
+                                    </Link>
                                 </div>
                             </div>
                             <div className={lectureStyles.lecture_add_info}>
