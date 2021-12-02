@@ -115,6 +115,7 @@
     font-size: 1.9rem;
     margin-top: 30px;
     font-weight: 600;
+    max-width: 500px;
     
 }
 .lecture_title:hover{
@@ -154,5 +155,25 @@
 .styled_p:hover{
     color: #0348b0;
     cursor: pointer;
+
+}
+.lecture_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.all_lectures{
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    text-decoration-thickness: 5%;
+}
+
+.all_lectures:hover{
+    color: #0348b0;
+
+
 
 }
