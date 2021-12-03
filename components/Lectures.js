@@ -59,10 +59,10 @@ export default function Lectures() {
                         {/* second card */}
                         <div className={lectureStyles.lecture_info}>
                             <div className={lectureStyles.lecture_date}>
-                                <div className={lectureStyles.lecture_date_digit}>01</div>
+                                <div className={lectureStyles.lecture_date_digit}>05</div>
                                 <div className={lectureStyles.lecture_more_date}>
                                     <div className={lectureStyles.lecture_monty}>December 2021</div>
-                                    <div className={lectureStyles.lecture_day}>Wed</div>
+                                    <div className={lectureStyles.lecture_day}>Sat</div>
                                 </div>
                             </div>  
 
@@ -102,16 +102,16 @@ export default function Lectures() {
                         {/* 3rd card */}
                         <div className={lectureStyles.lecture_info}>
                             <div className={lectureStyles.lecture_date}>
-                                <div className={lectureStyles.lecture_date_digit}>01</div>
+                                <div className={lectureStyles.lecture_date_digit}>07</div>
                                 <div className={lectureStyles.lecture_more_date}>
                                     <div className={lectureStyles.lecture_monty}>December 2021</div>
-                                    <div className={lectureStyles.lecture_day}>Wed</div>
+                                    <div className={lectureStyles.lecture_day}>Mon</div>
                                 </div>
                             </div>  
 
                             <div className={lectureStyles.lecture_image}>
                                 <Image
-                                    src='/images/ruder_book.jpg' 
+                                    src='/images/frutiger.jpeg' 
                                     alt='title-image' 
                                     layout='fill'
                                     objectFit="cover" 
@@ -126,10 +126,10 @@ export default function Lectures() {
                                     <div className={lectureStyles.tag}>Must be enrolled in design class</div>
                                 </div>
                                 <div className={lectureStyles.lecture_title}>
-                                    <Link href='/'><a className={lectureStyles.styled_title}>Emil Ruder. Typography.</a></Link>
+                                    <Link href='/'><a className={lectureStyles.styled_title}>Adrian Frutiger - Typefaces.</a></Link>
                                 </div>
                                 <div className={lectureStyles.p_container}>
-                                    <Link href='/'><p className={lectureStyles.styled_p}>After twenty-five years of teaching, Ruder published a heavily illustrated book capturing his ideas, methods and approach. The book, Typographie: A Manual for Design.
+                                    <Link href='/'><p className={lectureStyles.styled_p}>The international creation of typefaces after 1950 was decisively influenced by the Swiss type designer Adrian Frutiger. His Univers typeface and the machine-readable font OCR-B, which was adopted as an ISO standard, are milestones, as is his type for the Paris airports, which set new standards for signage types and evolved into the Frutiger typeface.
 
                                     </p>
                                     </Link>

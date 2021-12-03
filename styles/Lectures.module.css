@@ -27,6 +27,7 @@
 .lecture_date{
     display: flex;
     align-items: center;
+    width: 190px;
 
 }
 
