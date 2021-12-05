@@ -39,15 +39,18 @@ export default function Lectures() {
                                     <div className={lectureStyles.tag}>Registration required</div>
                                     <div className={lectureStyles.tag}>Must be enrolled in design class</div>
                                 </div>
-                                <div className={lectureStyles.lecture_title}>
-                                    <Link href='/'><a className={lectureStyles.styled_title}>Emil Ruder. Typography.</a></Link>
-                                </div>
-                                <div className={lectureStyles.p_container}>
-                                    <Link href='/'><p className={lectureStyles.styled_p}>After twenty-five years of teaching, Ruder published a heavily illustrated book capturing his ideas, methods and approach. The book, Typographie: A Manual for Design.
+                                <Link href='/'>
+                                    <a href='/' className={lectureStyles.lecture_title_p}>
+                                        <div className={lectureStyles.lecture_title}>
+                                            <a className={lectureStyles.styled_title}>Emil Ruder. Typography.</a>
+                                        </div>
+                                        <div className={lectureStyles.p_container}>
+                                            <p className={lectureStyles.styled_p}>After twenty-five years of teaching, Ruder published a heavily illustrated book capturing his ideas, methods and approach. The book, Typographie: A Manual for Design.
 
-                                    </p>
-                                    </Link>
-                                </div>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </Link>
                             </div>
                             <div className={lectureStyles.lecture_add_info}>
                                 <div className={lectureStyles.lecture_info_1}>
@@ -78,19 +81,21 @@ export default function Lectures() {
                                 {/* <img className={lectureStyles.image} src='/images/emil_ruder.jpg'></img> */}
                             </div>  
                             <div className={lectureStyles.lecture_description}>
-                                <div className={lectureStyles.lecture_tags}>
-                                    <div className={lectureStyles.tag}>Registration required</div>
-                                    <div className={lectureStyles.tag}>Must be enrolled in design class</div>
-                                </div>
-                                <div className={lectureStyles.lecture_title}>
-                                    <Link href='/'><a className={lectureStyles.styled_title}>Jan Tschichold & The new Typography</a></Link>
-                                </div>
-                                <div className={lectureStyles.p_container}>
-                                    <Link href='/'><p className={lectureStyles.styled_p}>In 1928, the year he turned 26, the German-born calligrapher and typographer Jan Tschichold (1902-74) published his landmark book Die Neue Typographie (The New Typography).
-
-                                    </p>
-                                    </Link>
-                                </div>
+                                    <div className={lectureStyles.lecture_tags}>
+                                        <div className={lectureStyles.tag}>Registration required</div>
+                                        <div className={lectureStyles.tag}>Must be enrolled in design class</div>
+                                    </div>
+                            <Link href='/'>
+                                <a href='/' className={lectureStyles.lecture_title_p}>
+                                    <div className={lectureStyles.lecture_title}>
+                                        <a className={lectureStyles.styled_title}>Jan Tschichold & The new Typography</a>
+                                    </div>
+                                    <div className={lectureStyles.p_container}>
+                                        <p className={lectureStyles.styled_p}>In 1928, the year he turned 26, the German-born calligrapher and typographer Jan Tschichold (1902-74) published his landmark book Die Neue Typographie (The New Typography).
+                                        </p>
+                                    </div>
+                                </a>
+                            </Link>
                             </div>
                             <div className={lectureStyles.lecture_add_info}>
                                 <div className={lectureStyles.lecture_info_1}>
@@ -125,15 +130,17 @@ export default function Lectures() {
                                     <div className={lectureStyles.tag}>Registration required</div>
                                     <div className={lectureStyles.tag}>Must be enrolled in design class</div>
                                 </div>
-                                <div className={lectureStyles.lecture_title}>
-                                    <Link href='/'><a className={lectureStyles.styled_title}>Adrian Frutiger - Typefaces.</a></Link>
-                                </div>
-                                <div className={lectureStyles.p_container}>
-                                    <Link href='/'><p className={lectureStyles.styled_p}>The international creation of typefaces after 1950 was decisively influenced by the Swiss type designer Adrian Frutiger. His Univers typeface and the machine-readable font OCR-B, which was adopted as an ISO standard, are milestones, as is his type for the Paris airports, which set new standards for signage types and evolved into the Frutiger typeface.
-
-                                    </p>
-                                    </Link>
-                                </div>
+                                <Link href='/'>
+                                     <a href='/' className={lectureStyles.lecture_title_p}>
+                                        <div className={lectureStyles.lecture_title}>
+                                            <a className={lectureStyles.styled_title}>Adrian Frutiger - Typefaces.</a>
+                                        </div>
+                                        <div className={lectureStyles.p_container}>
+                                            <p className={lectureStyles.styled_p}>The international creation of typefaces after 1950 was decisively influenced by the Swiss type designer Adrian Frutiger. His Univers typeface and the machine-readable font OCR-B, which was adopted as an ISO standard, are milestones, as is his type for the Paris airports, which set new standards for signage types and evolved into the Frutiger typeface.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </Link>
                             </div>
                             <div className={lectureStyles.lecture_add_info}>
                                 <div className={lectureStyles.lecture_info_1}>

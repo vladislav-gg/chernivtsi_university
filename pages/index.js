@@ -23,6 +23,7 @@ export default function Home() {
         <Hero/>
         <Main/>
         <Lectures/>
+        <Majors/>
       </main>
     </div>
   )
