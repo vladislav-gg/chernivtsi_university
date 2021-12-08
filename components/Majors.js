@@ -15,9 +15,11 @@ export default function Majors() {
                 <div className={majorStyles.major_heading}>
                     <h1>Majors</h1>
                 </div>
-                {data.map(major =>{
+                {
+                data.map(major => {
                     return (
                     <Collapsible
+                        key={major.id.toString()}
                         id={major.id}
                         description={major.description}
                         image={major.image}

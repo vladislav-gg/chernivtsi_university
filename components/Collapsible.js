@@ -6,7 +6,7 @@ import Image from 'next/dist/client/image'
 import { useState } from "react";
 import { data } from './data'
 
-export default function Collapsible(image, description, id) {
+export default function Collapsible(props) {
     const [isShowing, setIsShowing] = useState(false);
 
     const variants = {
@@ -32,16 +32,16 @@ export default function Collapsible(image, description, id) {
             <motion.div className={majorStyles.major_active_container} style={{display: isShowing ? 'block' : 'none', padding: '5px'}} animate={isShowing ? 'open' : 'closed'} variants={variants} transition={{duration: 0.7 }}>
                 <div className={majorStyles.major_block_container}>
                     <div className={majorStyles.major_desciprtion}>
-                        <p>{description} </p>
+                        <p>{props.description} </p>
                     </div>
                     <div className={majorStyles.major_button_container}>
                         <button className={majorStyles.major_button}>Click me</button>
                     </div>
                     <div className={majorStyles.major_image_container}>    
                         <Image 
-                            id={id}
+                            id={props.id}
                             className={majorStyles.major_image} 
-                            src={image}
+                            src={props.image}
                             objectFit='cover'
                             layout='fill'
                         >
