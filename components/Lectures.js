@@ -40,7 +40,7 @@ export default function Lectures() {
                                     <div className={lectureStyles.tag}>Must be enrolled in design class</div>
                                 </div>
                                 <Link href='/'>
-                                    <a href='/' className={lectureStyles.lecture_title_p}>
+                                    <a className={lectureStyles.lecture_title_p}>
                                         <div className={lectureStyles.lecture_title}>
                                             <a className={lectureStyles.styled_title}>Emil Ruder. Typography.</a>
                                         </div>
@@ -86,7 +86,7 @@ export default function Lectures() {
                                         <div className={lectureStyles.tag}>Must be enrolled in design class</div>
                                     </div>
                             <Link href='/'>
-                                <a href='/' className={lectureStyles.lecture_title_p}>
+                                <a className={lectureStyles.lecture_title_p}>
                                     <div className={lectureStyles.lecture_title}>
                                         <a className={lectureStyles.styled_title}>Jan Tschichold & The new Typography</a>
                                     </div>
@@ -131,7 +131,7 @@ export default function Lectures() {
                                     <div className={lectureStyles.tag}>Must be enrolled in design class</div>
                                 </div>
                                 <Link href='/'>
-                                     <a href='/' className={lectureStyles.lecture_title_p}>
+                                     <a className={lectureStyles.lecture_title_p}>
                                         <div className={lectureStyles.lecture_title}>
                                             <a className={lectureStyles.styled_title}>Adrian Frutiger - Typefaces.</a>
                                         </div>
