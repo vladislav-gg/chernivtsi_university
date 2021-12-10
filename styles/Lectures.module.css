@@ -9,7 +9,7 @@
 }
 
 .lecture_container{
-    width: 90%;
+    width: 1700px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;

@@ -2,13 +2,12 @@
     width: 100%;
     height: 100%;
     position: relative;
-    margin-top: 20px;
     display: flex;
     justify-content: center;
     margin-top: 80px;
 }
 .major_container{
-    width: 90%;
+    width: 1750px;
     height: 100%;
     display: flex;
     justify-content: flex-start;   
@@ -16,14 +15,13 @@
 }
 
 .major_names{
-    margin-top: 40px;
+    margin-top: 1px;
     cursor: pointer;
 }
 
 .major{
     display: flex;
-    width: 400px;
-    justify-content: space-between;
+    width: 600px;
 }
 .major_item{
     width: 100%;
@@ -64,8 +62,44 @@
 }
 
 .major_desciprtion{
-    width: 500px;
+    width: 600px;
     font-size: 1.1rem;
-    line-height: 1.6rem;
+    line-height: 1.9rem;
+    margin-top: 50px;
+
+}
+
+.major_title{
+    margin-left: 30px;
+
+}
+
+
+@media screen and (max-width: 900px){
+    .major_names{
+        width: 500px;
+
+    }
+    .major_block_container {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:600px){
+    .major_item{
+        font-size: 1rem
+
+    }
+    .major_image_container{
+        width: 400px;
+        height: 300px;
+    }
+    .major_desciprtion{
+        width: 400px;
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+
+    }    
 
 }

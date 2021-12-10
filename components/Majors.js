@@ -23,6 +23,7 @@ export default function Majors() {
                         id={major.id}
                         description={major.description}
                         image={major.image}
+                        name={major.name}
                     />
                 )})}
             </div>
