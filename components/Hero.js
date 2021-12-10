@@ -15,7 +15,16 @@ export default function Hero() {
                     </h1>
                 </div>
                 <div className={heroStyles.hero_image_container}>
-                    <img className={heroStyles.hero_image} src="/images/robot.png" alt='hero_image'></img>
+                    
+                    <Image
+                        className={heroStyles.hero_image}
+                        src="/images/robot.png"
+                        alt='hero_image'
+                        layout='fill'
+                        objectFit="cover" 
+
+                     />
+                    {/* <img className={heroStyles.hero_image} src="/images/robot.png" alt='hero_image'></img> */}
                 </div>
             </div>
         </div>
