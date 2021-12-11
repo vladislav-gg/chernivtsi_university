@@ -1,0 +1,58 @@
+.about_wrapper{
+    width: 100%;
+    height: 80vh;
+    background-color: #1C1C1F;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+}
+
+
+.about_university{
+    color: white;
+    
+    
+}
+
+.right_container{
+    color:white;
+    
+}
+.about_container{
+    width: 1750px;
+    display: flex;
+    justify-content: space-around;
+}
+.link {
+    text-decoration: underline;
+}
+
+.paragraph_wrapper{
+    max-width: 1000px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    
+}
+
+.h3_wrapper{
+    font-size: 2.5rem;
+    
+}
+
+.about_university{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.about_wrapper::after{
+    content: '';
+    background: rgba(255,255,255,.09);
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 1px;
+} 

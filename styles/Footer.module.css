@@ -1,0 +1,44 @@
+.footer_wrapper{
+    width: 100%;
+    height: 500px;
+    background-color:#1C1C1F ;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_container{
+    width: 1750px;
+    margin-top: 70px;
+}
+
+.first_container{
+    color: white;
+    font-size: 4.5rem;
+
+}
+
+.small_containers{
+    display: flex;
+    margin-top: 70px;
+}
+
+.p_description {
+    width: 300px;
+    font-size: 1.1rem;
+    color: #8e8e8e;
+
+}
+
+.p_title{
+    font-size: 1.1rem;
+    color: #fff;
+
+}
+
+.fourth_column{
+    color:white;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+
+}

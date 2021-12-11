@@ -5,6 +5,11 @@ import Hero from '../components/Hero'
 import Main from '../components/Main'
 import Majors from '../components/Majors'
 import Lectures from '../components/Lectures'
+import About from '../components/About'
+import Footer from '../components/Footer'
+
+
+
 export default function Home() {
   return (
     <div>
@@ -24,6 +29,8 @@ export default function Home() {
         <Main/>
         <Lectures/>
         <Majors/>
+        <About/>
+        <Footer/>
       </main>
     </div>
   )
