@@ -24,13 +24,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <Navigation/>
         <Hero/>
         <Main/>
         <Lectures/>
         <Majors/>
         <About/>
-        <Footer/>
       </main>
     </div>
   )
