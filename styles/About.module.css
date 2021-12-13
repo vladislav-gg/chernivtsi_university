@@ -6,7 +6,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   position: relative;
+    position: relative;
+    overflow: hidden;
+
 }
 
 
@@ -56,3 +58,22 @@
     position: absolute;
     bottom: 1px;
 } 
+
+
+@media screen and (max-width: 700px) {
+    .paragraph_wrapper{
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    .about_university{
+        display: none;
+
+
+    }
+    .about_wrapper{
+        padding: 15px
+    }
+    .h3_wrapper{
+        font-size: 2rem
+    }
+}

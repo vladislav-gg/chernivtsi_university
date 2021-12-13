@@ -31,10 +31,10 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className={footerStyles.fourth_column}>
-                    <Link href='/'>Instagram</Link>
-                    <Link href='/'>Facebook</Link>
-                    <Link href='/'>Vkontakte</Link>
-                    <Link href='/'>Twiiter</Link>
+                    <Link href='/'><a className={footerStyles.links}>Instagram</a></Link>
+                    <Link href='/'><a className={footerStyles.links}>Facebook</a></Link>
+                    <Link href='/'><a className={footerStyles.links}>Vkontakte</a></Link>
+                    <Link href='/'><a className={footerStyles.links}>Twiiter</a></Link>
                 </div>
             </div>
                 

@@ -86,7 +86,19 @@
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
+    .major_container{
+        width: 100%;
+        padding: 25px;
+        
+    }
+    .major_names{
+        width: 100%;
+    }
+    .major{
+        width: 100%;
+    }
+    
     .major_item{
         font-size: 1rem
 
