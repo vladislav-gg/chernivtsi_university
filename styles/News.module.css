@@ -1,6 +1,42 @@
 .news_wrapper{
     width: 100%;
-    background-color: green;
+    height: 100vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
 
+.news_header{
+    width: 1700px;
+
+
+}
+
+
+.news_main {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.news_item {
+    width: 1000px;
+    display: flex;
+    
+}
+
+.image_container{
+
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+    width: 450px;
+}
+.news_image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 
 }

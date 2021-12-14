@@ -30,6 +30,10 @@
   text-decoration: none;
   position: relative;
   }
+.nav_links_mobile{
+    display: none;
+
+  }
   
 .nav_links_1:before  {
   content: '';
@@ -50,7 +54,40 @@
   }
 }
 
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
+  .nav_links_mobile{
+    font-family: 'Libre Franklin', Helvetica Neue, sans-serif;
+    width: 40%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-weight: 400;
   
+    
+  }
+  .nav_links_1_mobile{
+    margin-bottom: 5px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    position: relative;
+
+  }
+  .nav_links{
+    display: none;
+  }
+  .nav_links_container{
+    justify-content: space-around;
+
+  }
+ 
+}
+
+@media screen and (min-width:768px) {
+  .nav_links_container_mobile{
+    display: none;
+
+  }
 }

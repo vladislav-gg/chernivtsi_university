@@ -1,0 +1,25 @@
+.burger_wrapper{
+    width: 33px;
+    height: 33px;
+    display: none;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 10;
+
+}
+
+.burgers{
+    width: 33px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: black;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+}
+
+
+@media (max-width: 767px) {
+    .burger_wrapper{
+        display: flex;
+    }
+}   
