@@ -4,7 +4,7 @@
     background-color:#1C1C1F ;
     display: flex;
     justify-content: center;
-    
+    position: relative;
 }
 
 .footer_container{
@@ -61,7 +61,7 @@
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .footer_container{ 
         flex-direction: column;
         padding: 20px;

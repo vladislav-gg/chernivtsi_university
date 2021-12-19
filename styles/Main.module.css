@@ -158,7 +158,7 @@
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 750px){
     .main_news{
         display: flex;
         flex-direction: column;
