@@ -1,0 +1,28 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.science_container{
+    width: 1500px;
+
+
+}
+
+.image_container{
+    width: 1500px;
+    height: 900px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
