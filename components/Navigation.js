@@ -20,16 +20,16 @@ export default function Navigation() {
         <div className={navStyles.nav_wrapper}>
             <div className={navStyles.nav_links_container}>
                     <div className={navStyles.nav_links}>
-                        <Link href='/'>
+                        <Link href='/admissions'>
                             <a className={navStyles.nav_links_1}>Admissions</a>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/research'>
                             <a className={navStyles.nav_links_1}>Research</a>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/news'>
                             <a className={navStyles.nav_links_1}>News & Events</a>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/about'>
                             <a className={navStyles.nav_links_1}>About</a>
                         </Link>
                     </div>
@@ -54,7 +54,11 @@ export default function Navigation() {
                 <Burger/>
             </div>
             <div>
-                <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16}/>
+            <Link href='/'>
+            
+                <a><Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} /></a> 
+            
+            </Link>
             </div>
         </div>
     )
