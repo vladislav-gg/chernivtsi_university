@@ -2,7 +2,8 @@
     width: 100%;
     height: 100%;
 
-
+    display: flex;
+    justify-content: center;
 }
 
 .science_container{
@@ -12,17 +13,55 @@
 }
 
 .image_container{
-    width: 1500px;
-    height: 900px;
+    width: 1000px;
+    height: 500px;
     overflow: hidden;
     position: relative;
+    margin-bottom: 80px;
 }
+
 
 
 .image{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
+    
+}
 
+.container{
+    width: 1000px;
+    margin-top: 130px;
+    height: 100%;
+}
 
+.title{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+
+.paragraph_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.paragraph{
+    width: calc(80% - 90px);
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    margin-bottom: 80px;
+    }
+
+.image_container_small{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    margin: 80px 0;
+    
 }
