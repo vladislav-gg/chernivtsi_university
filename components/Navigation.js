@@ -6,8 +6,16 @@ import Link from 'next/link'
 import Burger from './Burger'
 import { useState } from 'react'
 import burgerStyle from '../styles/Burger.module.css'
+import { motion } from "framer-motion"
+
+
 
 export default function Navigation() {
+    const variants = {
+        hidden: { opacity: 0, x: 0, y: -200 },
+        enter: { opacity: 1, x: 0, y: 0 },
+        exit: { opacity: 0, x: 0, y: -100 },
+    }
     
     const [ burgerOpen, setBurgerOpen ] = useState(false)
     const  toggleBurger = () =>{
@@ -17,7 +25,17 @@ export default function Navigation() {
 
 
     return (
-        <div className={navStyles.nav_wrapper}>
+        <motion.div 
+            variants={variants}
+            initial='hidden'
+            animate='enter'
+            exit='exit'
+            transition={{
+                type: 'linear',
+                duration: 1.4
+                }}            
+
+        className={navStyles.nav_wrapper}>
             <div className={navStyles.nav_links_container}>
                     <div className={navStyles.nav_links}>
                         <Link href='/admissions'>
@@ -60,6 +78,6 @@ export default function Navigation() {
             
             </Link>
             </div>
-        </div>
+        </motion.div>
     )
 }

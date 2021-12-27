@@ -31,10 +31,10 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className={footerStyles.fourth_column}>
-                    <Link href='/'><a className={footerStyles.links}>Instagram</a></Link>
-                    <Link href='/'><a className={footerStyles.links}>Facebook</a></Link>
-                    <Link href='/'><a className={footerStyles.links}>Vkontakte</a></Link>
-                    <Link href='/'><a className={footerStyles.links}>Twiiter</a></Link>
+                    <Link href='https://www.instagram.com/chnu_official/?igshid=1x3rden3j0jd5&fbclid=IwAR0NyXpoCBKlD5kTBxQXuw-6W5wPUZ2kHyk5C9GLOcADcPBRgHtEsgwtQ-g'><a className={footerStyles.links}>Instagram</a></Link>
+                    <Link href='https://www.facebook.com/chnu.edu.ua/?ref=settings'><a className={footerStyles.links}>Facebook</a></Link>
+                    <Link href='https://www.youtube.com/channel/UCYCdlIZeC5aYLWMFEiu2i3w?view_as=subscriber'><a className={footerStyles.links}>Youtube</a></Link>
+                    <Link href='https://t.me/ChNUSiteNews'><a className={footerStyles.links}>Telegram</a></Link>
                 </div>
             </div>
                 

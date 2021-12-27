@@ -2,10 +2,33 @@ import React from 'react'
 import lectureStyles from '../styles/Lectures.module.css'
 import Link from 'next/link'
 import Image from 'next/dist/client/image'
+import { motion } from "framer-motion"
+import { useInView } from "react-intersection-observer";
 
 export default function Lectures() {
+    const [ref, inView] = useInView();
+
+    
+    const variants = {
+        hidden: { opacity: 0, x: 0, y: -200 },
+        enter: { opacity: 1, x: 0, y: 0 },
+        exit: { opacity: 0, x: 0, y: -100 },
+    }
+
+   
     return (
-        <div className={lectureStyles.lecture_wrapper}>
+        <motion.div 
+            variants={variants}
+            initial='hidden'
+            whileInView="visible"
+            viewport={{ once: true }}
+            animate='enter'
+            exit='exit'
+            transition={{
+                type: 'linear',
+                duration: 1.4
+                }}            
+className={lectureStyles.lecture_wrapper}>
             <div className={lectureStyles.lecture_container}>
                 <div className={lectureStyles.lecture_heading}>
                     <h1>Next lectures</h1>
@@ -158,6 +181,6 @@ export default function Lectures() {
                 </div>
                 
             </div>
-        </div>
+        </motion.div>
     )
 }
