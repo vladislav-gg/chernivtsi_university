@@ -64,12 +64,12 @@
     justify-content: space-between;
     align-items: flex-start;
     font-weight: 400;
-  
+    margin-top: 20px;
     
   }
   .nav_links_1_mobile{
-    margin-bottom: 5px;
-    display: block;
+    margin-bottom: 15px;
+    display: inline-block;
     color: black;
     text-decoration: none;
     position: relative;
@@ -78,8 +78,19 @@
   .nav_links{
     display: none;
   }
-  .nav_links_container{
-    justify-content: space-around;
+  .logo{
+    margin-right: 20px;
+  }
+  .nav_wrapper{
+      display: block;
+  }
+  .burger_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px
+
+  }
+  .burger_toggle{
 
   }
  
@@ -90,4 +101,18 @@
     display: none;
 
   }
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+#second_word{
+  font-weight: 600;
+
+}
+#first_word{
+  font-weight: 200;
+
 }

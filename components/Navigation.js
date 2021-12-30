@@ -52,31 +52,38 @@ export default function Navigation() {
                         </Link>
                     </div>
                 </div>
-            <div className={navStyles.nav_links_container_mobile}>
-                    <div className={navStyles.nav_links_mobile} style={{display:burgerOpen ? 'flex' : 'none'}}>
-                        <Link href='/'>
-                            <a className={navStyles.nav_links_1_mobile}>Admissions</a>
-                        </Link>
-                        <Link href='/'>
-                            <a className={navStyles.nav_links_1_mobile}>Research</a>
-                        </Link>
-                        <Link href='/'>
-                            <a className={navStyles.nav_links_1_mobile}>News & Events</a>
-                        </Link>
-                        <Link href='/'>
-                            <a className={navStyles.nav_links_1_mobile}>About</a>
-                        </Link>
+                <div className={navStyles.burger_container}>
+                    <div className={navStyles.burger_toggle}>
+                        <div className='burger' onClick={toggleBurger}>
+                            <Burger/>
+                        </div>
+                        <div className={navStyles.nav_links_container_mobile}>
+                                <div className={navStyles.nav_links_mobile} style={{display:burgerOpen ? 'flex' : 'none'}}>
+                                    <Link href='/admissions'>
+                                        <a className={navStyles.nav_links_1_mobile}>Admissions</a>
+                                    </Link>
+                                    <Link href='/research'>
+                                        <a className={navStyles.nav_links_1_mobile}>Research</a>
+                                    </Link>
+                                    <Link href='/news'>
+                                        <a className={navStyles.nav_links_1_mobile}>News & Events</a>
+                                    </Link>
+                                    <Link href='/about'>
+                                        <a className={navStyles.nav_links_1_mobile}>About</a>
+                                    </Link>
+                                </div>
+                            </div>
+                    <div>
                     </div>
                 </div>
-            <div className='burger' onClick={toggleBurger}>
-                <Burger/>
-            </div>
-            <div>
-            <Link href='/'>
-            
-                <a><Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} /></a> 
-            
-            </Link>
+                <Link href='/'>
+                    <a>
+                        <div className={navStyles.logo}>
+                            <div id={navStyles.first_word}>Chernivtsi</div>
+                            <div id={navStyles.second_word}>University</div> 
+                        </div>
+                    </a>
+                </Link>
             </div>
         </motion.div>
     )
