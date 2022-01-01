@@ -10,6 +10,7 @@ import { motion } from "framer-motion"
 
 
 
+
 export default function Navigation() {
     const variants = {
         hidden: { opacity: 0, x: 0, y: -200 },

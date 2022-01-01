@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-
+    height: 100%;
 }
 
 .hero_container{
@@ -38,6 +38,14 @@
 .hero_heading{
     font-size: 1.7rem;
     margin-top: 0.5rem;
+}
+
+.hero_swiper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 @media screen and (max-width: 750px) {
