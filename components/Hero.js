@@ -40,17 +40,17 @@ export default function Hero() {
             <SwiperSlide className={heroStyles.hero_swiper}>
                 <div className={heroStyles.hero_container}>
                     <div className={heroStyles.hero_text}>
-                            <span className={heroStyles.span_text}>Research education</span>
+                            <span className={heroStyles.span_text}>Experience the art</span>
                             <br/>
                         <h1 className={heroStyles.hero_heading}>
-                            Education through sciense.
+                            Education through VR.
                         </h1>
                     </div>
                     <div className={heroStyles.hero_image_container}>
                         
                         <Image
                             className={heroStyles.hero_image}
-                            src="/images/robot.png"
+                            src="/images/unviersity_hero2.webp"
                             alt='hero_image'
                             layout='fill'
                             objectFit="cover" 

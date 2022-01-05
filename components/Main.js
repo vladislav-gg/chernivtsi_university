@@ -11,52 +11,71 @@ export default function Main() {
                     <h1>News</h1>
                 <div className={mainStyles.main_content}>
                     <div className={mainStyles.main_news}>
-                        <div className={mainStyles.main_card_container}>
-                            <div className={mainStyles.main_image_background}>
-                                <img className={mainStyles.main_image1} src='/images/1st_image.jpeg'></img>
-                            </div>
-                                <div className={mainStyles.main_content_container}>
-                                    <h2 className={mainStyles.h2_text}>
-                                        IKEA Foundation pledges £4.5m to back Oxford sustainable finance action
-                                    </h2>
-                                    <p className={mainStyles.p_text}>23 November 2021</p>
+                        <Link href='/news/science'>
+                            <a>
+                                <div className={mainStyles.main_card_container}>
+                                    <div className={mainStyles.main_image_background}>
+                                        <img className={mainStyles.main_image1} src='/images/1st_image.jpeg'></img>
+                                    </div>
+                                        <div className={mainStyles.main_content_container}>
+                                            <h2 className={mainStyles.h2_text}>
+                                                IKEA Foundation pledges £4.5m to back Oxford sustainable finance action
+                                            </h2>
+                                            <p className={mainStyles.p_text}>23 November 2021</p>
+                                        </div>
                                 </div>
-                        </div>
-                        <div className={mainStyles.main_card_container_2}>
-                            <div className={mainStyles.main_image_background}>
-                                <img className={mainStyles.main_image1} src='/images/lecture.jpg'></img>
-                            </div>
-                            <div className={mainStyles.main_content_container}>
-                                <h2 className={mainStyles.h2_text}>
-                                    IKEA Foundation pledges £4.5m to back Oxford sustainable finance action
-                                </h2>
-                                <p className={mainStyles.p_text}>23 November 2021</p>
-                            </div>
-                        </div>
+                            </a>
+                        </Link>
+                        <Link href='/news/science'>
+                            <a>
+                                <div className={mainStyles.main_card_container_2}>
+                                    <div className={mainStyles.main_image_background}>
+                                        <img className={mainStyles.main_image1} src='/images/lecture.jpg'></img>
+                                    </div>
+                                    <div className={mainStyles.main_content_container}>
+                                        <h2 className={mainStyles.h2_text}>
+                                            IKEA Foundation pledges £4.5m to back Oxford sustainable finance action
+                                        </h2>
+                                        <p className={mainStyles.p_text}>23 November 2021</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </Link>
 
+                        <Link href='/news/science'>
+                            <a>
+                                <div className={mainStyles.main_card_container_3}>
+                                    <div className={mainStyles.main_image_background}>
+                                        <img className={mainStyles.main_image1} src='/images/library.jpg'></img>
+                                    </div>
+                                    <div className={mainStyles.main_content_container}>
+                                        <h2 className={mainStyles.h2_text}>
+                                            IKEA Foundation pledges £4.5m to back Oxford sustainable finance action
+                                        </h2>
+                                        <p className={mainStyles.p_text}>23 November 2021</p>
+                                    </div>
+                                </div>
+                                </a>
+                        </Link>
 
-                        <div className={mainStyles.main_card_container_3}>
-                            <div className={mainStyles.main_image_background}>
-                                <img className={mainStyles.main_image1} src='/images/library.jpg'></img>
-                            </div>
-                            <div className={mainStyles.main_content_container}>
-                                <h2 className={mainStyles.h2_text}>
-                                    IKEA Foundation pledges £4.5m to back Oxford sustainable finance action
-                                </h2>
-                                <p className={mainStyles.p_text}>23 November 2021</p>
-                            </div>
-                        </div>
-                        <div className={mainStyles.main_card_container_3}>
-                            <div className={mainStyles.main_image_background}>
-                                <img className={mainStyles.main_image1} src='/images/kid.jpg'></img>
-                            </div>
-                            <div className={mainStyles.main_content_container}>
-                                <h2 className={mainStyles.h2_text}>
-                                    IKEA Foundation pledges £4.5m to back Oxford sustainable finance action
-                                </h2>
-                                <p className={mainStyles.p_text}>23 November 2021</p>
-                            </div>
-                        </div>
+                        <Link href='/news/science'>
+                            <a>
+                                <div className={mainStyles.main_card_container_3}>
+                                    <div className={mainStyles.main_image_background}>
+                                        <img className={mainStyles.main_image1} src='/images/kid.jpg'></img>
+                                    </div>
+                                    <div className={mainStyles.main_content_container}>
+                                        <h2 className={mainStyles.h2_text}>
+                                            IKEA Foundation pledges £4.5m to back Oxford sustainable finance action
+                                        </h2>
+                                        <p className={mainStyles.p_text}>23 November 2021</p>
+                                    </div>
+                                </div>
+                                </a>
+                        </Link>
+
+                        <Link href='/news/science'>
+                            <a>
                         <div className={mainStyles.main_card_container_3}>
                             <div className={mainStyles.main_image_background}>
                                 <img className={mainStyles.main_image1} src='/images/library2.jpg'></img>
@@ -68,6 +87,8 @@ export default function Main() {
                                 <p className={mainStyles.p_text}>23 November 2021</p>
                             </div>
                         </div>
+                        </a>
+                        </Link>
                     </div>
                     {/* END OF NEWS SECTION*/}
 
