@@ -31,6 +31,8 @@ export default function Hero() {
                             alt='hero_image'
                             layout='fill'
                             objectFit="cover" 
+                            priority={true}
+
 
                         />
                         {/* <img className={heroStyles.hero_image} src="/images/robot.png" alt='hero_image'></img> */}
@@ -54,6 +56,7 @@ export default function Hero() {
                             alt='hero_image'
                             layout='fill'
                             objectFit="cover" 
+                            priority={true}
 
                         />
                         {/* <img className={heroStyles.hero_image} src="/images/robot.png" alt='hero_image'></img> */}

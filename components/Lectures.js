@@ -45,24 +45,27 @@ className={lectureStyles.lecture_wrapper}>
                                     <div className={lectureStyles.lecture_day}>Wed</div>
                                 </div>
                             </div>  
+                            <Link href='/news/science'>
+                                <a>
+                                    <div className={lectureStyles.lecture_image}>
+                                        <Image
+                                            src='/images/ruder_book.jpg' 
+                                            alt='title-image' 
+                                            layout='fill'
+                                            objectFit="cover" 
+                                            className={lectureStyles.image}
+                                        ></Image>
 
-                            <div className={lectureStyles.lecture_image}>
-                                <Image
-                                    src='/images/ruder_book.jpg' 
-                                    alt='title-image' 
-                                    layout='fill'
-                                    objectFit="cover" 
-                                    className={lectureStyles.image}
-                                 ></Image>
-
-                                {/* <img className={lectureStyles.image} src='/images/emil_ruder.jpg'></img> */}
-                            </div>  
+                                        {/* <img className={lectureStyles.image} src='/images/emil_ruder.jpg'></img> */}
+                                    </div>
+                                </a> 
+                            </Link> 
                             <div className={lectureStyles.lecture_description}>
                                 <div className={lectureStyles.lecture_tags}>
                                     <div className={lectureStyles.tag}>Registration required</div>
                                     <div className={lectureStyles.tag}>Must be enrolled in design class</div>
                                 </div>
-                                <Link href='/'>
+                                <Link href='/news/science'>
                                     <a className={lectureStyles.lecture_title_p}>
                                         <div className={lectureStyles.lecture_title}>
                                             <a className={lectureStyles.styled_title}>Emil Ruder. Typography.</a>
@@ -91,24 +94,27 @@ className={lectureStyles.lecture_wrapper}>
                                     <div className={lectureStyles.lecture_day}>Sat</div>
                                 </div>
                             </div>  
+                            <Link href='/news/science'>
+                                <a>
+                                    <div className={lectureStyles.lecture_image}>
+                                        <Image
+                                            src='/images/jan.jpg' 
+                                            alt='title-image' 
+                                            layout='fill'
+                                            objectFit="cover" 
+                                            className={lectureStyles.image}
+                                        ></Image>
 
-                            <div className={lectureStyles.lecture_image}>
-                                <Image
-                                    src='/images/jan.jpg' 
-                                    alt='title-image' 
-                                    layout='fill'
-                                    objectFit="cover" 
-                                    className={lectureStyles.image}
-                                 ></Image>
-
-                                {/* <img className={lectureStyles.image} src='/images/emil_ruder.jpg'></img> */}
-                            </div>  
+                                        {/* <img className={lectureStyles.image} src='/images/emil_ruder.jpg'></img> */}
+                                    </div>  
+                                </a>
+                            </Link>
                             <div className={lectureStyles.lecture_description}>
                                     <div className={lectureStyles.lecture_tags}>
                                         <div className={lectureStyles.tag}>Registration required</div>
                                         <div className={lectureStyles.tag}>Must be enrolled in design class</div>
                                     </div>
-                            <Link href='/'>
+                            <Link href='/news/science'>
                                 <a className={lectureStyles.lecture_title_p}>
                                     <div className={lectureStyles.lecture_title}>
                                         <a className={lectureStyles.styled_title}>Jan Tschichold & The new Typography</a>
@@ -136,24 +142,27 @@ className={lectureStyles.lecture_wrapper}>
                                     <div className={lectureStyles.lecture_day}>Mon</div>
                                 </div>
                             </div>  
+                            <Link href='/news/science'>
+                                <a>
+                                    <div className={lectureStyles.lecture_image}>
+                                        <Image
+                                            src='/images/frutiger.jpeg' 
+                                            alt='title-image' 
+                                            layout='fill'
+                                            objectFit="cover" 
+                                            className={lectureStyles.image}
+                                        ></Image>
 
-                            <div className={lectureStyles.lecture_image}>
-                                <Image
-                                    src='/images/frutiger.jpeg' 
-                                    alt='title-image' 
-                                    layout='fill'
-                                    objectFit="cover" 
-                                    className={lectureStyles.image}
-                                 ></Image>
-
-                                {/* <img className={lectureStyles.image} src='/images/emil_ruder.jpg'></img> */}
-                            </div>  
+                                        {/* <img className={lectureStyles.image} src='/images/emil_ruder.jpg'></img> */}
+                                    </div>  
+                                </a>
+                            </Link>
                             <div className={lectureStyles.lecture_description}>
                                 <div className={lectureStyles.lecture_tags}>
                                     <div className={lectureStyles.tag}>Registration required</div>
                                     <div className={lectureStyles.tag}>Must be enrolled in design class</div>
                                 </div>
-                                <Link href='/'>
+                                <Link href='/news/science'>
                                      <a className={lectureStyles.lecture_title_p}>
                                         <div className={lectureStyles.lecture_title}>
                                             <a className={lectureStyles.styled_title}>Adrian Frutiger - Typefaces.</a>

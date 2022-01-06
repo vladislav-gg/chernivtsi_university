@@ -42,9 +42,6 @@ export default function Navigation() {
                         <Link href='/admissions'>
                             <a className={navStyles.nav_links_1}>Admissions</a>
                         </Link>
-                        <Link href='/research'>
-                            <a className={navStyles.nav_links_1}>Research</a>
-                        </Link>
                         <Link href='/news'>
                             <a className={navStyles.nav_links_1}>News & Events</a>
                         </Link>
@@ -62,9 +59,6 @@ export default function Navigation() {
                                 <div className={navStyles.nav_links_mobile} style={{display:burgerOpen ? 'flex' : 'none'}}>
                                     <Link href='/admissions'>
                                         <a className={navStyles.nav_links_1_mobile}>Admissions</a>
-                                    </Link>
-                                    <Link href='/research'>
-                                        <a className={navStyles.nav_links_1_mobile}>Research</a>
                                     </Link>
                                     <Link href='/news'>
                                         <a className={navStyles.nav_links_1_mobile}>News & Events</a>
