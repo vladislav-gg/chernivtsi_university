@@ -15,7 +15,7 @@ export default function Main() {
                             <a>
                                 <div className={mainStyles.main_card_container}>
                                     <div className={mainStyles.main_image_background}>
-                                        <img className={mainStyles.main_image1} src='/images/1st_image.jpeg'></img>
+                                        <img className={mainStyles.main_image1} src='/images/1st_image.webp'></img>
                                     </div>
                                         <div className={mainStyles.main_content_container}>
                                             <h2 className={mainStyles.h2_text}>
@@ -30,7 +30,7 @@ export default function Main() {
                             <a>
                                 <div className={mainStyles.main_card_container_2}>
                                     <div className={mainStyles.main_image_background}>
-                                        <img className={mainStyles.main_image1} src='/images/lecture.jpg'></img>
+                                        <img className={mainStyles.main_image1} src='/images/lecture.webp'></img>
                                     </div>
                                     <div className={mainStyles.main_content_container}>
                                         <h2 className={mainStyles.h2_text}>
@@ -46,7 +46,7 @@ export default function Main() {
                             <a>
                                 <div className={mainStyles.main_card_container_3}>
                                     <div className={mainStyles.main_image_background}>
-                                        <img className={mainStyles.main_image1} src='/images/library.jpg'></img>
+                                        <img className={mainStyles.main_image1} src='/images/library.webp'></img>
                                     </div>
                                     <div className={mainStyles.main_content_container}>
                                         <h2 className={mainStyles.h2_text}>
@@ -62,7 +62,7 @@ export default function Main() {
                             <a>
                                 <div className={mainStyles.main_card_container_3}>
                                     <div className={mainStyles.main_image_background}>
-                                        <img className={mainStyles.main_image1} src='/images/kid.jpg'></img>
+                                        <img className={mainStyles.main_image1} src='/images/kid.webp'></img>
                                     </div>
                                     <div className={mainStyles.main_content_container}>
                                         <h2 className={mainStyles.h2_text}>
@@ -78,7 +78,7 @@ export default function Main() {
                             <a>
                         <div className={mainStyles.main_card_container_3}>
                             <div className={mainStyles.main_image_background}>
-                                <img className={mainStyles.main_image1} src='/images/library2.jpg'></img>
+                                <img className={mainStyles.main_image1} src='/images/library2.webp'></img>
                             </div>
                             <div className={mainStyles.main_content_container}>
                                 <h2 className={mainStyles.h2_text}>
