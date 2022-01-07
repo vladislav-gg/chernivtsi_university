@@ -78,7 +78,6 @@
     }
     .fourth_column{
         display: flex;
-        flex-direction: column;
         font-size: 1.2rem;
         justify-content: space-between;
         width: 400px;
