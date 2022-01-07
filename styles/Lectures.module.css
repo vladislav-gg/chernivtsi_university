@@ -160,7 +160,7 @@
 
 @media screen and (max-width: 750px){
     .lecture_image {
-      min-width: 100%;
+      width: 430px;
     }
     .lecture_info{
         flex-direction: column;
@@ -193,6 +193,10 @@
     }
     .lecture_address{
         margin-top: 5px;
+
+    }
+    .image{
+        width: 100%;
 
     }
 }

@@ -28,7 +28,7 @@ export default function Lectures() {
                 type: 'linear',
                 duration: 1.4
                 }}            
-className={lectureStyles.lecture_wrapper}>
+        className={lectureStyles.lecture_wrapper}>
             <div className={lectureStyles.lecture_container}>
                 <div className={lectureStyles.lecture_heading}>
                     <h1>Next lectures</h1>
