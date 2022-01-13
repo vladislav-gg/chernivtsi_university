@@ -2,8 +2,12 @@ import React from 'react'
 import newsStyles from '../styles/News.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import { getStrapiMedia } from "../lib/media";
+import { fetchAPI } from "../lib/api";
+import { url } from "../next.config"
 
-export default function News_page_component() {
+
+export default function News_page_component(props) {
     return (
         <div>
             <div className={newsStyles.news_main}>
@@ -12,7 +16,7 @@ export default function News_page_component() {
                         <div className={newsStyles.news_item}>
                             <div className={newsStyles.image_container}>
                                 <Image 
-                                    src='/images/jan.jpg' 
+                                    src='/images/ruder_book.jpg' 
                                     alt='title-image' 
                                     layout='fill'
                                     objectFit="cover" 
@@ -24,10 +28,8 @@ export default function News_page_component() {
                                     <p className={newsStyles.news_date}>13 December, 03:55</p> 
                                     <p className={newsStyles.news_tag}>Basic</p>
                                 </div>
-                                <div className={newsStyles.h3_styles}>I published my website on vercel today. So here is my news section and some dummy text to test container width.</div>
-                                <p className={newsStyles.p_styles}> The NHS is urging everyone eligible to get vaccinated against Coronavirus, in light of the new Omicron variant which is spreading rapidly in London.
-
-                                You can book your first, second or booster dose of the vaccine online at on the NHS website now or call 119, free of charge. 
+                                <div className={newsStyles.h3_styles}>{props.title}</div>
+                                <p className={newsStyles.p_styles}> {props.description}
                                 </p>
                             </div>
                         </div>
