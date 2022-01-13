@@ -44,6 +44,7 @@ export default function Collapsible(props) {
                                 src={props.image}
                                 objectFit='cover'
                                 layout='fill'
+                                alt=''
                             >
                             </Image>
                         </div>

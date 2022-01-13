@@ -10,7 +10,7 @@ import { useState } from 'react'
 
 
 
-export default function news() {
+export default function News_section() {
 
 
   const [topics, setTopics] = useState(null);
@@ -36,6 +36,7 @@ export default function news() {
                       id={topic.id}
                       title={topic.attributes.title}
                       description={topic.attributes.description}
+                      key={topic.id}
                     />
                   )
                 })}
