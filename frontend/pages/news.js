@@ -16,7 +16,7 @@ export default function News_section() {
   const [topics, setTopics] = useState(null);
 
   const getTopics = async() => {
-    const res = await fetch("http://localhost:1337/api/topics");
+    const res = await fetch("http://localhost:1337/api/topics?populate=%2A");
     const json = await res.json();
     setTopics(json);
   }
@@ -31,13 +31,19 @@ export default function News_section() {
                 <h1>News and events</h1>
                 <div>
                 {topics && topics.data.map ((topic) => {
+
+                  console.log(topic.attributes.image.data.attributes.formats.large.url)
                   return (
+                    
                     <News_page_component
+                      key={topic.id}
                       id={topic.id}
                       title={topic.attributes.title}
                       description={topic.attributes.description}
-                      key={topic.id}
-                    />
+                      src={topic.attributes.image.data.attributes.formats.large.url}
+                    >
+                    </News_page_component>
+                    
                   )
                 })}
                 </div>
@@ -46,15 +52,3 @@ export default function News_section() {
     )
 };
 
-
-// export const getStatictopic = async () => {
-//   const data = await fetch("http://localhost:1337/api/topics");
-//   const topics = await data.json();
-
-//   return {
-//     topic: {
-//       topics,
-//     },
-//     revalidate: 1, 
-//   };
-// };
