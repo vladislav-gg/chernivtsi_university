@@ -13,10 +13,11 @@ import { useState } from 'react'
 export default function News_section() {
 
 
+  const URL = 'http://localhost:1337'
+  const herokuURL = 'https://chernivtsiuniversity.herokuapp.com'
   const [topics, setTopics] = useState(null);
-
   const getTopics = async() => {
-    const res = await fetch("https://chernivtsiuniversity.herokuapp.com/api/topics?populate=%2A");
+    const res = await fetch(herokuURL + "/api/topics?populate=%2A");
     const json = await res.json();
     setTopics(json);
     
@@ -33,7 +34,6 @@ export default function News_section() {
                 <div>
                 {topics && topics.data.map ((topic) => {
 
-                  console.log(topic.attributes.image.data.attributes.formats.large.url)
                   return (
                     
                     <News_page_component
@@ -41,7 +41,7 @@ export default function News_section() {
                       id={topic.id}
                       title={topic.attributes.title}
                       description={topic.attributes.description}
-                      src={"https://chernivtsiuniversity.herokuapp.com" + topic.attributes.image.data.attributes.formats.large.url}
+                      src={herokuURL + topic.attributes.image.data.attributes.formats.small.url}
                     >
                     </News_page_component>
                     
