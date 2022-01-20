@@ -16,7 +16,7 @@ export default function News_section() {
   const [topics, setTopics] = useState(null);
 
   const getTopics = async() => {
-    const res = await fetch("http://localhost:1337/api/topics?populate=%2A");
+    const res = await fetch("https://chernivtsiuniversity.herokuapp.com/api/topics?populate=%2A");
     const json = await res.json();
     setTopics(json);
     
@@ -41,7 +41,7 @@ export default function News_section() {
                       id={topic.id}
                       title={topic.attributes.title}
                       description={topic.attributes.description}
-                      src={"http://localhost:1337" + topic.attributes.image.data.attributes.formats.large.url}
+                      src={"https://chernivtsiuniversity.herokuapp.com" + topic.attributes.image.data.attributes.formats.large.url}
                     >
                     </News_page_component>
                     
