@@ -41,7 +41,7 @@ export default function News_section() {
                       id={topic.id}
                       title={topic.attributes.title}
                       description={topic.attributes.description}
-                      src={herokuURL + topic.attributes.image.data.attributes.formats.small.url}
+                      src={topic.attributes.image.data.attributes.url}
                     >
                     </News_page_component>
                     

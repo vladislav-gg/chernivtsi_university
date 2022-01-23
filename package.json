@@ -9,7 +9,6 @@
     "develop": "strapi develop"
   },
   "dependencies": {
-    "axios": "^0.24.0",
     "create-strapi-app": "^4.0.4",
     "framer-motion": "^5.3.3",
     "global": "^4.4.0",

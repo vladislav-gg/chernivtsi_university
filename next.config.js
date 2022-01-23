@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['localhost' , 'chernivtsiuniversity.herokuapp.com']
+    domains: ['localhost' , 'https://chernivtsiuniversity.herokuapp.com', 'res.cloudinary.com']
   },
 
 }
