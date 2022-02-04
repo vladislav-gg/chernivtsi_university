@@ -62,6 +62,10 @@
 
 
 @media screen and (max-width: 750px) {
+    
+    .footer_wrapper{
+        width: 500px;
+    }
     .footer_container{ 
         flex-direction: column;
         padding: 20px;
