@@ -34,7 +34,9 @@ export default function Collapsible(props) {
                             <div className={majorStyles.major_desciprtion}>
                                 <p>{props.description}</p>
                             </div>
-                            <Button/>
+                            <Button
+                                href={props.href}
+                            />
                         </div>
                         
                         <div className={majorStyles.major_image_container}>    

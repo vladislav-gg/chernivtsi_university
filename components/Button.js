@@ -5,7 +5,7 @@ import buttonStyles from '../styles/Button.module.css'
 export default function Button() {
     return (
         <div>
-            <span className={buttonStyles.button}><a href="#"></a></span>
+            <span className={buttonStyles.button}><a href="/news/science"></a></span>
         </div>
     )
 }

@@ -17,6 +17,8 @@ export default function Majors() {
                 </div>
                 {
                 data.map(major => {
+                    console.log(major.href)
+
                     return (
                     <Collapsible
                         key={major.id.toString()}
@@ -24,6 +26,7 @@ export default function Majors() {
                         description={major.description}
                         image={major.image}
                         name={major.name}
+                        href={major.href}
                     />
                 )})}
             </div>
