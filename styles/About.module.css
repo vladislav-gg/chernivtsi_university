@@ -69,7 +69,9 @@
 
     }
     .about_wrapper{
-        padding: 15px
+        padding: 25px;
+        width: 500px;
+        padding-right: 35px;
     }
     .h3_wrapper{
         font-size: 2rem
