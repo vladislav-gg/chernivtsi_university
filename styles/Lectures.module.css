@@ -159,13 +159,14 @@
 
 
 @media screen and (max-width: 750px){
-    .lecture_image {
-      width: 430px;
+    .lecture_wrapper{
+        width: 500px;
     }
+    
     .lecture_info{
         flex-direction: column;
         overflow: hidden;
-    
+        
     };
     .lecture_tags{
         margin-top: 10px;
@@ -174,6 +175,9 @@
         width: 100%;
         padding: 30px;
         
+    }
+    .lecture_image {
+      width: 450px;
     }
     .p_container{
         width: 100%;
