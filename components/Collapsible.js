@@ -20,13 +20,13 @@ export default function Collapsible(props) {
     };
 
     return (
-        <div className={majorStyles.major_names} onClick={toggle} type='button' >
-            <div className={majorStyles.major_item}>
+        <div className={majorStyles.major_names}  >
+            <div className={majorStyles.major_item} onClick={toggle} type='button'>
                 <div className={majorStyles.major}>
                     <div className={majorStyles.major_number}>{props.id}</div>    
                     <div className={majorStyles.major_title}>{props.name}</div>
                 </div>
-                <a className={majorStyles.major_button}>Click me to expand</a>
+                <a className={majorStyles.major_button} >Click me to expand</a>
             </div>
                 <motion.div className={majorStyles.major_active_container} style={{display: isShowing ? 'block' : 'none'}} animate={isShowing ? 'open' : 'closed'} variants={variants} transition={{duration: 0.7 }}>
                     <div className={majorStyles.major_block_container}>

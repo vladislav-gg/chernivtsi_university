@@ -16,7 +16,6 @@
 
 .major_names{
     margin-top: 1px;
-    cursor: pointer;
 }
 
 .major{
@@ -32,7 +31,7 @@
     box-shadow: 0 2px 66px var(--major-item-shadow);
     align-items: center;
     padding: 50px;
-    
+    cursor: pointer;
 }
 
 .major_active_container{
