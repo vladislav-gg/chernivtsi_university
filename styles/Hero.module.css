@@ -57,9 +57,10 @@
         display: flex;
         flex-direction: column;
         margin-top: 80px;
+        width: 100%;
     }
     .hero_image_container{
-        width: 400px;
+        width: 350px;
         margin-top: 20px;
     
     }
@@ -70,5 +71,6 @@
     .hero_heading{
         font-size: 1.3rem;
     }
+  
     
 }

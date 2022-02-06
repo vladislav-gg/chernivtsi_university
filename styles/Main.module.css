@@ -171,12 +171,12 @@
     }    
 
     .main_card_container {
-        width: 370px;
+        width: 100%;
     }
     .main_card_container_2 {
-        width: 370px;
+        width: 100%;
     }
     .main_card_container_3 {
-        width: 370px;
+        width: 100%;
     }
 }

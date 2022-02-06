@@ -35,7 +35,6 @@ export default function Hero() {
 
 
                         />
-                        {/* <img className={heroStyles.hero_image} src="/images/robot.png" alt='hero_image'></img> */}
                     </div>
                 </div>
                 </SwiperSlide>
@@ -57,7 +56,6 @@ export default function Hero() {
                             layout='fill'
                             objectFit="cover" 
                         />
-                        {/* <img className={heroStyles.hero_image} src="/images/robot.png" alt='hero_image'></img> */}
                     </div>
                 </div>
                 </SwiperSlide>
