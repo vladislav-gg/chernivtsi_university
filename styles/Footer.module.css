@@ -61,10 +61,10 @@
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
     
     .footer_wrapper{
-        width: 500px;
+        width: 100%;
     }
     .footer_container{ 
         flex-direction: column;
@@ -83,8 +83,9 @@
     }
     .fourth_column{
         display: flex;
-        font-size: 1.2rem;
+        font-size: 1rem;
         justify-content: space-between;
-        width: 400px;
+        width: 350px;
+       
     }
 }   
