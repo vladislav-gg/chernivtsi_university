@@ -85,14 +85,14 @@
     }
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:768px){
     .major_wrapper{
-        width: 500px;
+        width: 100%;
+        padding: 15px;
     }
     
     .major_container{
         width: 100%;
-        padding: 25px;
         
     }
     .major_names{

@@ -54,7 +54,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .nav_links_mobile{
     font-family: 'Libre Franklin', Helvetica Neue, sans-serif;
     width: 40%;
@@ -82,7 +82,7 @@
     margin-right: 20px;
   }
   .nav_wrapper{
-    width: 500px;
+    width: 100%;
     display: block;
   }
   .burger_container{

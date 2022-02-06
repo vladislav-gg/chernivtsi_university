@@ -161,19 +161,22 @@
     }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 768px){
+    
     .main_news{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        
     }    
 
     .main_card_container {
-        width: 450px;
+        width: 370px;
     }
     .main_card_container_2 {
-        width: 450px;
+        width: 370px;
     }
     .main_card_container_3 {
-        width: 450px;
+        width: 370px;
     }
 }
