@@ -26,7 +26,7 @@ export default function Collapsible(props) {
                     <div className={majorStyles.major_number}>{props.id}</div>    
                     <div className={majorStyles.major_title}>{props.name}</div>
                 </div>
-                <a className={majorStyles.major_button} >Click me to expand</a>
+                <a className={majorStyles.major_button}>{isShowing ? <img src="https://img.icons8.com/ios-glyphs/40/000000/collapse-arrow.png"/> : <img src="https://img.icons8.com/ios-glyphs/40/000000/expand-arrow--v1.png"/> }</a>
             </div>
                 <motion.div className={majorStyles.major_active_container} style={{display: isShowing ? 'block' : 'none'}} animate={isShowing ? 'open' : 'closed'} variants={variants} transition={{duration: 0.7 }}>
                     <div className={majorStyles.major_block_container}>
