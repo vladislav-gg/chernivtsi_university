@@ -14,10 +14,10 @@ export default function admissions() {
                 <div className={admissionStyles.left_container}>
                     <div className={admissionStyles.p_container}>
                         <p>
-                        You can earn undergraduate degrees at Yale College, master’s or doctoral degrees at the Graduate School of Arts & Sciences, and specialized degrees at our 12 professional schools. There are also many non-degree programs that allow individuals to study or pursue research without matriculating. Apply directly to the school or program where you wish to enroll.
+                        Our admissions process this year is expected to run to the usual timeline with any changes due to COVID-19 highlighted in our applicant guide. If you are a current applicant, make sure you stay up to date by reading the Admissions News section to the right of this page. 
                         </p>
                         <p>
-                        Yale is committed to ensuring that qualified students are admitted without regard to their financial circumstances, and that they graduate without excessive debt.</p>
+                        Our next Open Days will be taking place on 29 and 30 June, and 16 September 2022 and we look forward to seeing you then. It is not currently known exactly what form these will take and whether they will be online or in-person but more information will be available as soon as possible. </p>
                     </div>
                     <div className={admissionStyles.news_main}>
                         <Link href='/'>    
@@ -25,7 +25,7 @@ export default function admissions() {
                                 <div className={admissionStyles.news_item}>
                                     <div className={admissionStyles.image_container}>
                                         <Image 
-                                            src='/images/jan.jpg' 
+                                            src='/images/adm5.webp' 
                                             alt='title-image' 
                                             layout='fill'
                                             objectFit="cover" 
@@ -38,7 +38,7 @@ export default function admissions() {
                                             <p className={admissionStyles.news_tag}>Basic</p>
                                         </div> */}
                                         <div className={admissionStyles.h3_styles}>Undergraduate</div>
-                                        <p className={admissionStyles.p_styles}> Visit admissions.yale.edu for information about Yale College and advice for applicants. 
+                                        <p className={admissionStyles.p_styles}> Find information about our Undergraduate and professional schools here.
                                         </p>
                                     </div>
                                 </div>
@@ -51,7 +51,7 @@ export default function admissions() {
                                 <div className={admissionStyles.news_item}>
                                     <div className={admissionStyles.image_container}>
                                         <Image 
-                                            src='/images/jan.jpg' 
+                                            src='/images/adm2.jpg' 
                                             alt='title-image' 
                                             layout='fill'
                                             objectFit="cover" 
@@ -79,7 +79,7 @@ export default function admissions() {
                                 <div className={admissionStyles.news_item}>
                                     <div className={admissionStyles.image_container}>
                                         <Image 
-                                            src='/images/jan.jpg' 
+                                            src='/images/adm3.jpg' 
                                             alt='title-image' 
                                             layout='fill'
                                             objectFit="cover" 
@@ -107,7 +107,7 @@ export default function admissions() {
                                 <div className={admissionStyles.news_item}>
                                     <div className={admissionStyles.image_container}>
                                         <Image 
-                                            src='/images/jan.jpg' 
+                                            src='/images/adm4.jpg' 
                                             alt='title-image' 
                                             layout='fill'
                                             objectFit="cover" 
