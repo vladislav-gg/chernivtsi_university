@@ -78,7 +78,7 @@ export default function Main() {
                             <a>
                         <div className={mainStyles.main_card_container_3}>
                             <div className={mainStyles.main_image_background}>
-                                <img className={mainStyles.main_image1} src='/images/library2.webp'></img>
+                                <img className={mainStyles.main_image1} src='/images/adm5.webp'></img>
                             </div>
                             <div className={mainStyles.main_content_container}>
                                 <h2 className={mainStyles.h2_text}>
