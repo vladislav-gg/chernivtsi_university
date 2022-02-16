@@ -3,7 +3,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-
+    margin-bottom: 100px;
 }
 
 .container{
@@ -12,7 +12,7 @@
 }
 
 .title{
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -55,8 +55,8 @@
 
     overflow: hidden;
     position: relative;
-    height: 200px;
-    width: 270px;
+    height: 300px;
+    width: 550px;
 }
 .news_image{
     object-fit: cover;
