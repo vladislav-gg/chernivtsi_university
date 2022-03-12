@@ -1,75 +1,98 @@
-.news_wrapper{
-    width: 100%;
-    height: 100%;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
+.news_wrapper {
+	width: 100%;
+	height: 100%;
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
 }
 
-.news_header{
-    width: 1700px;
-
-
+.news_header {
+	width: 1700px;
 }
-.news_container{
-    position: relative;
-
+.news_container {
+	position: relative;
 }
 
 .news_main {
-    width: 1500px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    transition: .5s ease;
-    padding: 40px;
-    border-top:1px solid rgba(182,190,192,.8);
-    margin-top: 50px;
+	width: 1500px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	transition: 0.5s ease;
+	padding: 40px;
+	border-top: 1px solid rgba(182, 190, 192, 0.8);
+	margin-top: 50px;
 }
-
 
 .news_item {
-    width: 1200px;
-    display: flex;
-    
+	width: 1200px;
+	display: flex;
 }
 
-.image_container{
-
-    overflow: hidden;
-    position: relative;
-    height: 400px;
-    width: 450px;
+.image_container {
+	overflow: hidden;
+	position: relative;
+	height: 400px;
+	width: 450px;
 }
-.news_image{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-}
-
-.description_container{
-    margin-left: 60px;
-    width: 700px;
+.news_image {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
 }
 
-.news_tags{
-    display: flex;
-    width: 250px;
-    justify-content: space-between;
-    font-size: 1.2rem;
-    opacity: .4;
+.description_container {
+	margin-left: 60px;
+	width: 700px;
 }
 
-.h3_styles{
-    font-size: 2.4rem;
-    line-height: 2.5rem;
-    font-weight: 600;
-    color: #0348b0;
+.news_tags {
+	display: flex;
+	width: 250px;
+	justify-content: space-between;
+	font-size: 1.2rem;
+	opacity: 0.4;
 }
 
-.p_styles{
-    font-size: 1.2rem;
-    line-height: 1.7rem;
-
+.h3_styles {
+	font-size: 2.4rem;
+	line-height: 2.5rem;
+	font-weight: 600;
+	color: #0348b0;
 }
 
+.p_styles {
+	font-size: 1.2rem;
+	line-height: 1.7rem;
+}
+
+@media screen and (max-width: 768px) {
+	.news_main {
+		width: 100%;
+	}
+	.news_item {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.description_container {
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+		margin-left: 0px;
+	}
+	.news_header {
+		width: 95%;
+		font-size: 1.35rem;
+	}
+	.image_container {
+		width: 370px;
+	}
+	.h3_styles {
+		margin-top: 20px;
+	}
+	.p_styles {
+		margin-top: 15px;
+		line-height: 1.8rem;
+	}
+}
