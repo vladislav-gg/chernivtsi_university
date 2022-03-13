@@ -17,7 +17,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-intersection-observer": "^8.33.1",
-    "swiper": "^7.4.1"
+    "swiper": "^7.4.1",
+    "swr": "^1.2.2"
   },
   "devDependencies": {
     "eslint": "7.32.0",
