@@ -45,11 +45,11 @@ export default function login() {
 					</button>
 				</div>
 				<div className={loginStyles.lower_section}>
-					<div>
+					<div className={loginStyles.forgot_passowrd}>
 						<Link href="/reset">Forgot Password</Link>
 					</div>
-					<div>
-						Don't have an account? <Link href="/register">Register</Link> now.
+					<div className={loginStyles.register}>
+						<Link href="/register">Don't have an account? Register now.</Link>
 					</div>
 				</div>
 			</div>
