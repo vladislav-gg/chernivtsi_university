@@ -8,16 +8,23 @@ import {
 import { useAuthState } from "react-firebase-hooks/auth";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function register() {
+	const router = useRouter();
 	const [user, loading, error] = useAuthState(auth);
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
 	const [name, setName] = useState("");
-	const register = () => {
+	const signUp = () => {
 		if (!name) alert("Please enter your name");
-		registerWithEmailAndPassword(email, name, password);
+		registerWithEmailAndPassword(name, email, password);
 	};
+	useEffect(() => {
+		if (loading) return;
+		if (user) router.push("/");
+	}, [user, loading]);
+
 	return (
 		<div className={registerStyles.login_container}>
 			<div className={registerStyles.login_wrapper}>
@@ -43,10 +50,7 @@ export default function register() {
 					placeholder="Password"
 				/>
 				<div className={registerStyles.buttons_wrapper}>
-					<button
-						className={registerStyles.login_button}
-						onClick={() => register}
-					>
+					<button className={registerStyles.login_button} onClick={signUp}>
 						Register
 					</button>
 					<button
