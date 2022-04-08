@@ -4,8 +4,10 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { query, collection, getDocs, where } from "firebase/firestore";
+import { useRouter } from "next/router";
 
 export default function dashboard() {
+	const router = useRouter();
 	const [user, loading, error] = useAuthState(auth);
 	const [name, setName] = useState("");
 	const fetchUserName = async () => {
@@ -19,6 +21,12 @@ export default function dashboard() {
 			alert("An error occured while fetching user data");
 		}
 	};
+	useEffect(() => {
+		if (loading) return;
+		if (!user) return router.push("/");
+
+		fetchUserName();
+	}, [user, loading]);
 
 	return (
 		<div className={dashboardStyles.dash_wrapper}>
