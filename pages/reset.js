@@ -40,7 +40,9 @@ export default function Reset() {
 				</div>
 				<div className={loginStyles.lower_section}>
 					<div className={loginStyles.register}>
-						<Link href="/register">Don't have an account? Register now.</Link>
+						<Link href="/register">
+							Don&apos;t have an account? Register now.
+						</Link>
 					</div>
 				</div>
 			</div>

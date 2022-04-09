@@ -50,7 +50,9 @@ export default function Login() {
 						<Link href="/reset">Forgot Password</Link>
 					</div>
 					<div className={loginStyles.register}>
-						<Link href="/register">Don't have an account? Register now.</Link>
+						<Link href="/register">
+							Don&apos;t have an account? Register now.
+						</Link>
 					</div>
 				</div>
 			</div>
