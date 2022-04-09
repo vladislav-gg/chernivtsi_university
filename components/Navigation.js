@@ -11,7 +11,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import React, { useEffect } from "react";
 import { query, collection, getDocs, where } from "firebase/firestore";
 import { useRouter } from "next/router";
-import dashboardStyles from "../styles/Dashboard.module.css";
+import buttonStyles from "../styles/Nav_button.module.css";
 
 export default function Navigation() {
 	const router = useRouter();
@@ -82,7 +82,7 @@ export default function Navigation() {
 							</Link>
 						</>
 					) : (
-						<button className={dashboardStyles.button} onClick={logout}>
+						<button className={buttonStyles.button} onClick={logout}>
 							Sign out
 						</button>
 					)}

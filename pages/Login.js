@@ -1,8 +1,9 @@
 import loginStyles from "../styles/Login.module.css";
 import {
 	auth,
-	logInWithEmailAndPass,
+	logInWithEmailAndPassword,
 	signInWithGoogle,
+	signInWithEmailAndPassword,
 } from "../lib/firebase.js";
 import { useAuthState } from "react-firebase-hooks/auth";
 import React, { useEffect, useState } from "react";
@@ -33,7 +34,7 @@ export default function login() {
 				<div className={loginStyles.buttons_wrapper}>
 					<button
 						className={loginStyles.login_button}
-						onClick={() => logInWithEmailAndPass(email, password)}
+						onClick={() => logInWithEmailAndPassword(email, password)}
 					>
 						Login
 					</button>
