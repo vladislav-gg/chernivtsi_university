@@ -6,7 +6,7 @@ import Link from "next/link";
 import { query, collection, getDocs, where } from "firebase/firestore";
 import { useRouter } from "next/router";
 
-export default function dashboard() {
+export default function Dashboard() {
 	const router = useRouter();
 	const [user, loading, error] = useAuthState(auth);
 	const [name, setName] = useState("");

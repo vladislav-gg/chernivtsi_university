@@ -9,7 +9,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
-export default function login() {
+export default function Login() {
 	const [user, loading, error] = useAuthState(auth);
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");

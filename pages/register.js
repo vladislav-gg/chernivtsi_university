@@ -10,7 +10,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-export default function register() {
+export default function Register() {
 	const router = useRouter();
 	const [user, loading, error] = useAuthState(auth);
 	const [email, setEmail] = useState("");
