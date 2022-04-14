@@ -31,9 +31,8 @@ export default function Dashboard() {
 	return (
 		<div className={dashboardStyles.dash_wrapper}>
 			<div className={dashboardStyles.dash_container}>
-				Logged in as
-				<div>{name}</div>
-				<div>{user?.email}</div>
+				<div className={dashboardStyles.dash_name}>Welcome back, {name}</div>
+				{/* <div>{user?.email}</div> */}
 				<button className={dashboardStyles.button} onClick={logout}>
 					Logout
 				</button>

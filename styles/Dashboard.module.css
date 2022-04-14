@@ -1,0 +1,17 @@
+.dash_wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.dash_container {
+	margin-top: 100px;
+	margin-bottom: 450px;
+	width: 85%;
+}
+
+.dash_name {
+	font-size: 2.5rem;
+	font-weight: 600;
+}
