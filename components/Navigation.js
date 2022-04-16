@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import navStyles from "../styles/Navigation.module.css";
+import navdashStyles from "../styles/Nav_dashboard.module.css";
 import Link from "next/link";
 import Burger from "./Burger";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import burgerStyle from "../styles/Burger.module.css";
 import { motion } from "framer-motion";
 import { auth, db, logout } from "../lib/firebase.js";
@@ -14,6 +15,12 @@ import { useRouter } from "next/router";
 import buttonStyles from "../styles/Nav_button.module.css";
 
 export default function Navigation() {
+	const [dashboard, setDashboard] = useState(false);
+	const btnRef = useRef();
+	const toggleDashboard = () => {
+		setDashboard(!dashboard);
+	};
+
 	const router = useRouter();
 	const [user, loading, error] = useAuthState(auth);
 	const [name, setName] = useState("");
@@ -46,6 +53,18 @@ export default function Navigation() {
 		setBurgerOpen(!burgerOpen);
 	};
 
+	useEffect(() => {
+		const closeDashboard = (e) => {
+			if (e.path[0] !== btnRef.current) {
+				setDashboard(false);
+			}
+		};
+
+		document.body.addEventListener("click", closeDashboard);
+
+		return () => document.body.removeEventListener("click", closeDashboard);
+	}, []);
+
 	return (
 		<motion.div
 			variants={variants}
@@ -69,9 +88,31 @@ export default function Navigation() {
 					<Link href="/about">
 						<a className={navStyles.nav_links_1}>About</a>
 					</Link>
-					{user && <div className={navStyles.nav_links_1}>{name}.</div>}
+					{user && (
+						<div className={navdashStyles.profile_name}>
+							<div onClick={toggleDashboard} ref={btnRef}>
+								{name}
+							</div>
+							<div
+								className={navdashStyles.dashboard_toggle}
+								style={{ display: dashboard ? "block" : "none" }}
+							>
+								<Link href="/Login">
+									<a className={navdashStyles.dashboard_links}>My classes</a>
+								</Link>
+								<Link href="/Login">
+									<a className={navdashStyles.dashboard_links}>Homework</a>
+								</Link>
+								<Link href="/">
+									<a className={navdashStyles.dashboard_links} onClick={logout}>
+										Sign out
+									</a>
+								</Link>
+							</div>
+						</div>
+					)}
 
-					{!user ? (
+					{!user && (
 						<>
 							<Link href="/Login">
 								<a className={navStyles.nav_links_1}>Login</a>
@@ -81,10 +122,6 @@ export default function Navigation() {
 								<a className={navStyles.nav_links_1}>Register</a>
 							</Link>
 						</>
-					) : (
-						<button className={buttonStyles.button} onClick={logout}>
-							Sign out
-						</button>
 					)}
 				</div>
 			</div>
