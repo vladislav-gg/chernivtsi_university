@@ -33,9 +33,9 @@ export default function Dashboard() {
 			<div className={dashboardStyles.dash_container}>
 				<div className={dashboardStyles.dash_name}>Welcome back, {name}</div>
 				{/* <div>{user?.email}</div> */}
-				<button className={dashboardStyles.button} onClick={logout}>
+				{/* <button className={dashboardStyles.button} onClick={logout}>
 					Logout
-				</button>
+				</button> */}
 			</div>
 		</div>
 	);

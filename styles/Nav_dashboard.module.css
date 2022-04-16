@@ -1,0 +1,43 @@
+.profile_name {
+	display: block;
+	color: black;
+	text-decoration: none;
+	position: relative;
+}
+/* .profile_name:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 2px;
+	background-color: #c2eac0;
+	transition: width 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+@media (hover: hover) and (pointer: fine) {
+	.profile_name:hover::before {
+		left: 0;
+		right: auto;
+		width: 100%;
+	}
+} */
+
+.dashboard_toggle {
+	display: block;
+	position: absolute;
+	width: 225px;
+	background-color: white;
+	margin-top: 10px;
+	z-index: 90;
+	right: 0;
+	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+	padding: 20px 0;
+}
+.dashboard_links {
+	display: flex;
+	padding: 12px 20px;
+}
+
+.dashboard_links:hover {
+	background-color: #fafafa;
+}
