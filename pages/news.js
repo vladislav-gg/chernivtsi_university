@@ -11,10 +11,10 @@ import useSWR from "swr";
 import loaderStyles from "../styles/Loderr.module.css";
 import { motion } from "framer-motion";
 
-export default function News_section() {
-	const fetcher = (...args) => fetch(...args).then((res) => res.json());
+export default function News_section({ data }) {
+	// const fetcher = (...args) => fetch(...args).then((res) => res.json());
 	const URL = "http://localhost:1337";
-	const herokuURL = "https://chernivtsiuniversity.herokuapp.com";
+	// const herokuURL = "https://chernivtsiuniversity.herokuapp.com";
 	// const [topics, setTopics] = useState(null);
 	// const getTopics = async () => {
 	// 	const res = await fetch(herokuURL + "/api/topics?populate=%2A");
@@ -25,18 +25,18 @@ export default function News_section() {
 	// if (!topics) {
 	// 	getTopics();
 	// }
-	const { data, error } = useSWR(
-		herokuURL + "/api/topics?populate=%2A",
-		fetcher
-	);
+	// const { data, error } = useSWR(
+	// 	herokuURL + "/api/topics?populate=%2A",
+	// 	fetcher
+	// );
 
-	if (error) {
-		return (
-			<div className={loaderStyles.news_error}>
-				<h1>Failed to load.</h1>
-			</div>
-		);
-	}
+	// if (error) {
+	// 	return (
+	// 		<div className={loaderStyles.news_error}>
+	// 			<h1>Failed to load.</h1>
+	// 		</div>
+	// 	);
+	// }
 	if (!data)
 		return (
 			<div className={loaderStyles.news_loading}>
@@ -65,4 +65,21 @@ export default function News_section() {
 			</div>
 		</div>
 	);
+}
+
+export async function getStaticProps() {
+	// Call an external API endpoint to get posts.
+	// You can use any data fetching library
+	const herokuURL = "https://chernivtsiuniversity.herokuapp.com";
+
+	const res = await fetch(herokuURL + "/api/topics?populate=%2A");
+	const data = await res.json();
+
+	// By returning { props: { posts } }, the Blog component
+	// will receive `posts` as a prop at build time
+	return {
+		props: {
+			data,
+		},
+	};
 }

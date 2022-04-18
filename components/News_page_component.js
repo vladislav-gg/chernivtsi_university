@@ -22,6 +22,7 @@ export default function News_page_component(props) {
 									layout="fill"
 									objectFit="cover"
 									className={newsStyles.news_image}
+									priority={true}
 								/>
 							</div>
 							<div className={newsStyles.description_container}>
