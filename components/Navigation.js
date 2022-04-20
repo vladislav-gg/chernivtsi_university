@@ -32,7 +32,7 @@ export default function Navigation() {
 			setName(data.name);
 		} catch (err) {
 			console.error(err);
-			alert("An error occured while fetching user data");
+			// alert("An error occured while fetching user data");
 		}
 	};
 	useEffect(() => {
@@ -97,8 +97,8 @@ export default function Navigation() {
 								className={navdashStyles.dashboard_toggle}
 								style={{ display: dashboard ? "block" : "none" }}
 							>
-								<Link href="/Login">
-									<a className={navdashStyles.dashboard_links}>My classes</a>
+								<Link href="/dashboard">
+									<a className={navdashStyles.dashboard_links}>Dashboard</a>
 								</Link>
 								<Link href="/Login">
 									<a className={navdashStyles.dashboard_links}>Homework</a>
