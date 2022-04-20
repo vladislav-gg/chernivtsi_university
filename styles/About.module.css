@@ -1,80 +1,71 @@
-.about_wrapper{
-    width: 100%;
-    height: 100%;
-    background-color: #1C1C1F;
-    margin-top: 70px;
-    padding: 200px 0 200px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-
+.about_wrapper {
+	width: 100%;
+	height: 100%;
+	background-color: #1c1c1f;
+	margin-top: 70px;
+	padding: 200px 0 200px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
 }
 
-
-.about_university{
-    color: white;
-    
-    
+.about_university {
+	color: white;
 }
 
-.right_container{
-    color:white;
-    
+.right_container {
+	color: white;
 }
-.about_container{
-    width: 1750px;
-    display: flex;
-    justify-content: space-around;
+.about_container {
+	width: 1750px;
+	display: flex;
+	justify-content: center;
 }
 .link {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
-.paragraph_wrapper{
-    max-width: 1000px;
-    font-size: 1.4rem;
-    line-height: 2rem;
-    
+.paragraph_wrapper {
+	max-width: 1000px;
+	font-size: 1.4rem;
+	line-height: 2rem;
 }
 
-.h3_wrapper{
-    font-size: 2.5rem;
-    
+.h3_wrapper {
+	font-size: 2.5rem;
 }
 
-.about_university{
-    display: flex;
-    align-items: center;
-    font-size: 1.9rem;
-    font-weight: 300;
+.about_university {
+	display: flex;
+	align-items: center;
+	font-size: 1.9rem;
+	font-weight: 300;
 }
 
-.about_wrapper::after{
-    content: '';
-    background: rgba(255,255,255,.09);
-    width: 100%;
-    height: 1px;
-    position: absolute;
-    bottom: 1px;
-} 
+.about_wrapper::after {
+	content: "";
+	background: rgba(255, 255, 255, 0.09);
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	bottom: 1px;
+}
 @media screen and (max-width: 768px) {
-    .paragraph_wrapper{
-        font-size: 1rem;
-        line-height: 1.6rem;
-    }
-    .about_university{
-        display: none;
-
-
-    }
-    .about_wrapper{
-        padding: 25px;
-        width: 100%;
-        padding-right: 35px;
-    }
-    .h3_wrapper{
-        font-size: 2rem
-    }
+	.paragraph_wrapper {
+		font-size: 1rem;
+		line-height: 1.6rem;
+	}
+	.about_university {
+		display: none;
+	}
+	.about_wrapper {
+		padding: 25px;
+		width: 100%;
+		padding-right: 35px;
+	}
+	.h3_wrapper {
+		font-size: 2rem;
+	}
 }
