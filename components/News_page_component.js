@@ -7,7 +7,6 @@ import { fetchAPI } from "../lib/api";
 import { url } from "../next.config";
 
 export default function News_page_component(props) {
-	console.log(props.src);
 	return (
 		<div>
 			<div className={newsStyles.news_main}>
