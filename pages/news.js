@@ -74,12 +74,15 @@ export async function getStaticProps() {
 
 	const res = await fetch(herokuURL + "/api/topics?populate=%2A");
 	const data = await res.json();
-
-	// By returning { props: { posts } }, the Blog component
-	// will receive `posts` as a prop at build time
-	return {
-		props: {
-			data,
-		},
-	};
+	try {
+		return {
+			props: {
+				data,
+			},
+		};
+	} catch (error) {
+		return {
+			props: null,
+		};
+	}
 }
