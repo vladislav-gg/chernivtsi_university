@@ -1,94 +1,93 @@
-.wrapper{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
+.wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
 }
 
-.container{
-    width: 1500px;
-    margin-top: 50px;
+.container {
+	width: 85%;
+	margin-top: 50px;
 }
 
-.title{
-    font-size: 2rem;
-    font-weight: 600;
+.title {
+	font-size: 2rem;
+	font-weight: 600;
 }
 
-
-
-
-.left_container{
-    width: 800px;
-    font-size: 1.25rem;
-    line-height: 1.7rem;
-    margin-top: 40px;
-
+.left_container {
+	width: 1000px;
+	font-size: 1.25rem;
+	line-height: 1.7rem;
+	margin-top: 40px;
 }
-
-
 
 /* admissions */
 
-
-
 .news_main {
-    width: 800px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    transition: .5s ease;
-    padding: 40px;
-    border-top:1px solid rgba(182,190,192,.8);
-    margin-top: 50px;
+	width: 800px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	transition: 0.5s ease;
+	padding: 40px;
+	border-top: 1px solid rgba(182, 190, 192, 0.8);
+	margin-top: 50px;
 }
-
 
 .news_item {
-    width: 800px;
-    display: flex;
-    
+	width: 800px;
+	display: flex;
 }
 
-.image_container{
-
-    overflow: hidden;
-    position: relative;
-    height: 300px;
-    width: 550px;
+.image_container {
+	overflow: hidden;
+	position: relative;
+	height: 300px;
+	width: 550px;
 }
-.news_image{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-}
-
-.description_container{
-    margin-left: 30px;
-    width: 700px;
-    margin-top: 20px
+.news_image {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
 }
 
-.news_tags{
-    display: flex;
-    width: 250px;
-    justify-content: space-between;
-    font-size: 1.2rem;
-    opacity: .4;
+.description_container {
+	margin-left: 30px;
+	width: 700px;
+	margin-top: 20px;
 }
 
-.h3_styles{
-    font-size: 1.35em;
-    line-height: 1.9rem;
-    font-weight: 600;
-    color: #00356b;
+.news_tags {
+	display: flex;
+	width: 250px;
+	justify-content: space-between;
+	font-size: 1.2rem;
+	opacity: 0.4;
 }
 
-.p_styles{
-    font-size: 1.25rem;
-    line-height: 1.8rem;
-    margin-top: 18px;
-
+.h3_styles {
+	font-size: 1.35em;
+	line-height: 1.9rem;
+	font-weight: 600;
+	color: #00356b;
 }
 
+.p_styles {
+	font-size: 1.25rem;
+	line-height: 1.8rem;
+	margin-top: 18px;
+}
+
+@media screen and (max-width: 768px) {
+	.left_container {
+		width: 100%;
+	}
+	.news_item {
+		flex-direction: column;
+	}
+	.image_container {
+		width: 380px;
+	}
+}
