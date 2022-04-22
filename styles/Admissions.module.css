@@ -81,13 +81,21 @@
 }
 
 @media screen and (max-width: 768px) {
+	.news_main {
+		width: 95%;
+	}
 	.left_container {
 		width: 100%;
 	}
 	.news_item {
 		flex-direction: column;
+		width: 100%;
 	}
 	.image_container {
-		width: 380px;
+		width: 340px;
+	}
+	.description_container {
+		width: 95%;
+		margin-left: 5px;
 	}
 }

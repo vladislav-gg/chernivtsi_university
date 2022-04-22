@@ -8,7 +8,7 @@ export default function about() {
 			<div className={aboutStyles.about_page_container}>
 				<div className={aboutStyles.paragraph_wrapper}>
 					<p>
-						I created a website for my hometown{" "}
+						I developed a website for my hometown{" "}
 						<u>
 							<Link href="http://www.chnu.edu.ua/index.php?page=ua">
 								University
@@ -28,7 +28,10 @@ export default function about() {
 							<u>
 								<Link href="/news">news</Link>
 							</u>{" "}
-							page.
+							page. The website also has firebase authentication and I'm
+							planning on adding dashboard for each signed-in user and some
+							additional features (like submitting homework and calendar for
+							incoming classes).
 						</p>
 					</p>
 				</div>
