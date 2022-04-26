@@ -12,7 +12,6 @@
 }
 
 .nav_links {
-	font-family: "Libre Franklin", Helvetica Neue, sans-serif;
 	width: 60%;
 	font-size: 1.2rem;
 	display: flex;
@@ -64,7 +63,6 @@
 
 @media screen and (max-width: 768px) {
 	.nav_links_mobile {
-		font-family: "Libre Franklin", Helvetica Neue, sans-serif;
 		width: 40%;
 		font-size: 1.2rem;
 		display: flex;

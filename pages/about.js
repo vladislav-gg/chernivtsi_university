@@ -28,7 +28,7 @@ export default function about() {
 							<u>
 								<Link href="/news">news</Link>
 							</u>{" "}
-							page. The website also has firebase authentication and I'm
+							page. The website also has firebase authentication and I&apos;m
 							planning on adding dashboard for each signed-in user and some
 							additional features (like submitting homework and calendar for
 							incoming classes).
