@@ -172,11 +172,50 @@
 	}
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
 	.lecture_image {
 		min-width: 100%;
 	}
 	.lecture_info {
 		flex-direction: column;
+	}
+} */
+
+@media all and (min-width: 769px) and (max-width: 1300px) {
+	.lecture_wrapper {
+		width: 100%;
+		padding: 25px;
+	}
+	.lecture_info {
+		flex-direction: column;
+		overflow: hidden;
+	}
+	.lecture_tags {
+		margin-top: 10px;
+	}
+	.lecture_container {
+		width: 100%;
+	}
+	.lecture_image {
+		width: 370px;
+	}
+	.p_container {
+		width: 100%;
+	}
+
+	.tag {
+		margin-top: 10px;
+	}
+	.lecture_date {
+		margin-bottom: 10px;
+	}
+	.lecture_time_gmt {
+		margin-top: 30px;
+	}
+	.lecture_address {
+		margin-top: 5px;
+	}
+	.image {
+		width: 100%;
 	}
 }
