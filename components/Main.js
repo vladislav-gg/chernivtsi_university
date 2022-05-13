@@ -15,6 +15,7 @@ export default function Main() {
 								<div className={mainStyles.main_card_container}>
 									<div className={mainStyles.main_image_background}>
 										<img
+											alt="Students walking down the stairs"
 											className={mainStyles.main_image1}
 											src="/images/1st_image.webp"
 										></img>
@@ -34,6 +35,7 @@ export default function Main() {
 								<div className={mainStyles.main_card_container_2}>
 									<div className={mainStyles.main_image_background}>
 										<img
+											alt="Lecture"
 											className={mainStyles.main_image1}
 											src="/images/lecture.webp"
 										></img>
@@ -54,6 +56,7 @@ export default function Main() {
 								<div className={mainStyles.main_card_container_4}>
 									<div className={mainStyles.main_image_background}>
 										<img
+											alt="library image"
 											className={mainStyles.main_image1}
 											src="/images/library.webp"
 										></img>
@@ -74,6 +77,7 @@ export default function Main() {
 								<div className={mainStyles.main_card_container_3}>
 									<div className={mainStyles.main_image_background}>
 										<img
+											alt="Kid at the desk"
 											className={mainStyles.main_image1}
 											src="/images/kid.webp"
 										></img>
@@ -94,6 +98,7 @@ export default function Main() {
 								<div className={mainStyles.main_card_container_3}>
 									<div className={mainStyles.main_image_background}>
 										<img
+											alt="library"
 											className={mainStyles.main_image1}
 											src="/images/adm5.webp"
 										></img>
