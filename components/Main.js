@@ -56,7 +56,7 @@ export default function Main() {
 								<div className={mainStyles.main_card_container_4}>
 									<div className={mainStyles.main_image_background}>
 										<img
-											alt="library image"
+											alt=""
 											className={mainStyles.main_image1}
 											src="/images/library.webp"
 										></img>
@@ -77,7 +77,7 @@ export default function Main() {
 								<div className={mainStyles.main_card_container_3}>
 									<div className={mainStyles.main_image_background}>
 										<img
-											alt="Kid at the desk"
+											alt=""
 											className={mainStyles.main_image1}
 											src="/images/kid.webp"
 										></img>

@@ -23,7 +23,7 @@ export default function Majors() {
 							image={major.image}
 							name={major.name}
 							href={major.href}
-							alt={major.alt}
+							alt=""
 						/>
 					);
 				})}

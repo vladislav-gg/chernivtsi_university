@@ -53,7 +53,7 @@ export default function Lectures() {
 									<div className={lectureStyles.lecture_image}>
 										<Image
 											src="/images/ruder_book.jpg"
-											alt="Emil Ruder book showcase"
+											alt=""
 											layout="fill"
 											objectFit="cover"
 											className={lectureStyles.image}
@@ -74,7 +74,7 @@ export default function Lectures() {
 									<a className={lectureStyles.lecture_title_p}>
 										<div className={lectureStyles.lecture_title}>
 											<a className={lectureStyles.styled_title}>
-												<h4>Emil Ruder. Typography.</h4>
+												<h3>Emil Ruder. Typography.</h3>
 											</a>
 										</div>
 										<div className={lectureStyles.p_container}>
@@ -115,7 +115,7 @@ export default function Lectures() {
 									<div className={lectureStyles.lecture_image}>
 										<Image
 											src="/images/jan.jpg"
-											alt="Jan Tschichold and The new Typography lecture"
+											alt=""
 											layout="fill"
 											objectFit="cover"
 											className={lectureStyles.image}
@@ -136,7 +136,7 @@ export default function Lectures() {
 									<a className={lectureStyles.lecture_title_p}>
 										<div className={lectureStyles.lecture_title}>
 											<a className={lectureStyles.styled_title}>
-												<h4>Jan Tschichold & The new Typography</h4>
+												<h3>Jan Tschichold & The new Typography</h3>
 											</a>
 										</div>
 										<div className={lectureStyles.p_container}>
@@ -177,7 +177,7 @@ export default function Lectures() {
 									<div className={lectureStyles.lecture_image}>
 										<Image
 											src="/images/frutiger.jpeg"
-											alt="Adrian Frutiger and his typefaces lecture"
+											alt=""
 											layout="fill"
 											objectFit="cover"
 											className={lectureStyles.image}
@@ -198,7 +198,7 @@ export default function Lectures() {
 									<a className={lectureStyles.lecture_title_p}>
 										<div className={lectureStyles.lecture_title}>
 											<a className={lectureStyles.styled_title}>
-												<h4>Adrian Frutiger - Typefaces.</h4>
+												<h3>Adrian Frutiger - Typefaces.</h3>
 											</a>
 										</div>
 										<div className={lectureStyles.p_container}>

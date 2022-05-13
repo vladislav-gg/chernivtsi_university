@@ -66,7 +66,7 @@ export default function Collapsible(props) {
 							src={props.image}
 							objectFit="cover"
 							layout="fill"
-							alt={props.alt}
+							alt=""
 						></Image>
 					</div>
 				</div>

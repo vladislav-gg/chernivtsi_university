@@ -11,7 +11,9 @@ export default function About() {
                 </div> */}
 				<div className={aboutStyles.right_container}>
 					<div className={aboutStyles.h3_wrapper}>
-						<h3>Chernivtsi National University</h3>
+						<h2 className={aboutStyles.h2_title}>
+							Chernivtsi National University
+						</h2>
 					</div>
 					<div className={aboutStyles.paragraph_wrapper}>
 						<div className={aboutStyles.paragraph_wrapper}>

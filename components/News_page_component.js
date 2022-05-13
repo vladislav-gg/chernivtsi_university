@@ -17,7 +17,7 @@ export default function News_page_component(props) {
 								<Image
 									src={props.src}
 									id={props.id}
-									alt="title-image"
+									alt=""
 									layout="fill"
 									objectFit="cover"
 									className={newsStyles.news_image}
