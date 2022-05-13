@@ -29,8 +29,8 @@ export default function Register() {
 	return (
 		<div className={registerStyles.login_container}>
 			<Head>
-				<title>Login page</title>
-				<meta property="og:title" content="Login page" key="title" />
+				<title>Register page</title>
+				<meta property="og:title" content="Register page" key="title" />
 			</Head>
 			<div className={registerStyles.login_wrapper}>
 				<input

@@ -8,6 +8,7 @@ import {
 import { useAuthState } from "react-firebase-hooks/auth";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Login() {
 	const [user, loading, error] = useAuthState(auth);
@@ -16,6 +17,11 @@ export default function Login() {
 
 	return (
 		<div className={loginStyles.login_container}>
+			<Head>
+				<title>Login page</title>
+				<meta property="og:title" content="Login page" key="title" />
+			</Head>
+
 			<div className={loginStyles.login_wrapper}>
 				<input
 					type="text"
