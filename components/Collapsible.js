@@ -21,7 +21,12 @@ export default function Collapsible(props) {
 
 	return (
 		<div className={majorStyles.major_names}>
-			<div className={majorStyles.major_item} onClick={toggle} type="button">
+			<button
+				className={majorStyles.major_item}
+				onClick={toggle}
+				type="button"
+				aria-expanded={isShowing ? "true" : "false"}
+			>
 				<div className={majorStyles.major}>
 					<div className={majorStyles.major_number}>{props.id}</div>
 					<div className={majorStyles.major_title}>{props.name}</div>
@@ -29,27 +34,28 @@ export default function Collapsible(props) {
 				<a className={majorStyles.major_button}>
 					{isShowing ? (
 						<Image
-							alt="Digital world and artificial intelligence"
+							alt=""
 							width="40px"
 							height="40px"
 							src="https://img.icons8.com/ios-glyphs/40/000000/collapse-arrow.png"
 						/>
 					) : (
 						<Image
-							alt="Aviation and space major"
+							alt=""
 							width="40px"
 							height="40px"
 							src="https://img.icons8.com/ios-glyphs/40/000000/expand-arrow--v1.png"
 						/>
 					)}
 				</a>
-			</div>
+			</button>
 			<motion.div
 				className={majorStyles.major_active_container}
 				style={{ display: isShowing ? "block" : "none" }}
 				animate={isShowing ? "open" : "closed"}
 				variants={variants}
 				transition={{ duration: 0.7 }}
+				aria-hidden={isShowing ? "false" : "true"}
 			>
 				<div className={majorStyles.major_block_container}>
 					<div className={majorStyles.major_desciprtion_container}>

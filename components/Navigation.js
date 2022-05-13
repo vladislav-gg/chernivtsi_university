@@ -90,7 +90,11 @@ export default function Navigation() {
 					</Link>
 					{user && (
 						<div className={navdashStyles.profile_name}>
-							<div onClick={toggleDashboard} ref={btnRef}>
+							<div
+								className={navStyles.nav_links_1}
+								onClick={toggleDashboard}
+								ref={btnRef}
+							>
 								{name}
 							</div>
 							<div
