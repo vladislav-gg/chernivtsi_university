@@ -23,6 +23,7 @@ export default function Login() {
 					value={email}
 					onChange={(e) => setEmail(e.target.value)}
 					placeholder="E-mail Address"
+					title="Email address"
 				/>
 				<input
 					type="password"
@@ -30,6 +31,7 @@ export default function Login() {
 					value={password}
 					onChange={(e) => setPassword(e.target.value)}
 					placeholder="Password"
+					title="Password"
 				/>
 				<div className={loginStyles.buttons_wrapper}>
 					<button

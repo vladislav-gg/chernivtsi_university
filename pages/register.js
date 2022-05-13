@@ -39,7 +39,7 @@ export default function Register() {
 					value={name}
 					onChange={(e) => setName(e.target.value)}
 					placeholder="Full name"
-					aria-labelledby="Full name"
+					title="Full name"
 				/>
 				<input
 					type="text"
@@ -47,7 +47,7 @@ export default function Register() {
 					value={email}
 					onChange={(e) => setEmail(e.target.value)}
 					placeholder="E-mail Address"
-					aria-labelledby="email address"
+					title="email address"
 				/>
 				<input
 					type="password"
@@ -55,7 +55,7 @@ export default function Register() {
 					value={password}
 					onChange={(e) => setPassword(e.target.value)}
 					placeholder="Password"
-					aria-labelledby="Password"
+					title="Password"
 				/>
 				<div className={registerStyles.buttons_wrapper}>
 					<button className={registerStyles.login_button} onClick={signUp}>
