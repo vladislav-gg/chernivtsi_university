@@ -23,7 +23,6 @@ export default function Login() {
 					value={email}
 					onChange={(e) => setEmail(e.target.value)}
 					placeholder="E-mail Address"
-					aria-labelledby="Email address"
 				/>
 				<input
 					type="password"
@@ -31,7 +30,6 @@ export default function Login() {
 					value={password}
 					onChange={(e) => setPassword(e.target.value)}
 					placeholder="Password"
-					aria-labelledby="Password"
 				/>
 				<div className={loginStyles.buttons_wrapper}>
 					<button

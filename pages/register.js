@@ -9,6 +9,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 export default function Register() {
 	const router = useRouter();
@@ -27,6 +28,10 @@ export default function Register() {
 
 	return (
 		<div className={registerStyles.login_container}>
+			<Head>
+				<title>Login page</title>
+				<meta property="og:title" content="Login page" key="title" />
+			</Head>
 			<div className={registerStyles.login_wrapper}>
 				<input
 					type="text"
