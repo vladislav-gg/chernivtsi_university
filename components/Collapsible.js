@@ -29,12 +29,14 @@ export default function Collapsible(props) {
 				<a className={majorStyles.major_button}>
 					{isShowing ? (
 						<Image
+							alt="Digital world and artificial intelligence"
 							width="40px"
 							height="40px"
 							src="https://img.icons8.com/ios-glyphs/40/000000/collapse-arrow.png"
 						/>
 					) : (
 						<Image
+							alt="Aviation and space major"
 							width="40px"
 							height="40px"
 							src="https://img.icons8.com/ios-glyphs/40/000000/expand-arrow--v1.png"
@@ -64,7 +66,7 @@ export default function Collapsible(props) {
 							src={props.image}
 							objectFit="cover"
 							layout="fill"
-							alt=""
+							alt={props.alt}
 						></Image>
 					</div>
 				</div>

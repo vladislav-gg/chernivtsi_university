@@ -25,7 +25,7 @@ export default function Hero() {
 							<Image
 								className={heroStyles.hero_image}
 								src="/images/robot.png"
-								alt="hero_image"
+								alt="Robot head"
 								layout="fill"
 								objectFit="cover"
 								priority={true}
@@ -44,7 +44,7 @@ export default function Hero() {
 							<Image
 								className={heroStyles.hero_image}
 								src="/images/unviersity_hero2.webp"
-								alt="hero_image"
+								alt="Girl with VR device"
 								layout="fill"
 								objectFit="cover"
 								priority={true}
