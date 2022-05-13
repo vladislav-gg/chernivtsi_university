@@ -71,7 +71,7 @@ export default function Lectures() {
 									</div>
 								</div>
 								<Link href="/news/science">
-									<a className={lectureStyles.lecture_title_p}>
+									<div className={lectureStyles.lecture_title_p}>
 										<div className={lectureStyles.lecture_title}>
 											<a className={lectureStyles.styled_title}>
 												<h3>Emil Ruder. Typography.</h3>
@@ -85,7 +85,7 @@ export default function Lectures() {
 												Design.
 											</p>
 										</div>
-									</a>
+									</div>
 								</Link>
 							</div>
 							<div className={lectureStyles.lecture_add_info}>
@@ -133,7 +133,7 @@ export default function Lectures() {
 									</div>
 								</div>
 								<Link href="/news/science">
-									<a className={lectureStyles.lecture_title_p}>
+									<div className={lectureStyles.lecture_title_p}>
 										<div className={lectureStyles.lecture_title}>
 											<a className={lectureStyles.styled_title}>
 												<h3>Jan Tschichold & The new Typography</h3>
@@ -147,7 +147,7 @@ export default function Lectures() {
 												New Typography).
 											</p>
 										</div>
-									</a>
+									</div>
 								</Link>
 							</div>
 							<div className={lectureStyles.lecture_add_info}>
@@ -195,7 +195,7 @@ export default function Lectures() {
 									</div>
 								</div>
 								<Link href="/news/science">
-									<a className={lectureStyles.lecture_title_p}>
+									<div className={lectureStyles.lecture_title_p}>
 										<div className={lectureStyles.lecture_title}>
 											<a className={lectureStyles.styled_title}>
 												<h3>Adrian Frutiger - Typefaces.</h3>
@@ -212,7 +212,7 @@ export default function Lectures() {
 												Frutiger typeface.
 											</p>
 										</div>
-									</a>
+									</div>
 								</Link>
 							</div>
 							<div className={lectureStyles.lecture_add_info}>
