@@ -13,7 +13,6 @@ export default function Home() {
 		<div>
 			<Head>
 				<title>Chernivtsi University</title>
-				<meta httpEquiv="content-language" content="en-us" />
 				<meta name="description" content="Chernivtsi University website" />
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
