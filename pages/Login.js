@@ -23,7 +23,7 @@ export default function Login() {
 			</Head>
 
 			<div className={loginStyles.login_wrapper}>
-				<label className={loginStyles.email_label} for="email">
+				<label className={loginStyles.email_label} htmlFor="email">
 					Your email address
 				</label>
 				<input
@@ -35,7 +35,7 @@ export default function Login() {
 					title="Email address"
 					id="email"
 				/>
-				<label className={loginStyles.password_label} for="password">
+				<label className={loginStyles.password_label} htmlFor="password">
 					Your password
 				</label>
 				<input

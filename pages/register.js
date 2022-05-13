@@ -33,7 +33,7 @@ export default function Register() {
 				<meta property="og:title" content="Register page" key="title" />
 			</Head>
 			<div className={registerStyles.login_wrapper}>
-				<label className={registerStyles.fullname_label} for="full name">
+				<label className={registerStyles.fullname_label} htmlFor="full name">
 					Your full name
 				</label>
 
@@ -46,7 +46,7 @@ export default function Register() {
 					title="Full name"
 					id="full name"
 				/>
-				<label className={registerStyles.email_label} for="email address">
+				<label className={registerStyles.email_label} htmlFor="email address">
 					Your email address
 				</label>
 				<input
@@ -58,7 +58,7 @@ export default function Register() {
 					title="email address"
 					id="email address"
 				/>
-				<label className={registerStyles.password_label} for="password">
+				<label className={registerStyles.password_label} htmlFor="password">
 					Your password
 				</label>
 				<input
