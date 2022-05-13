@@ -23,14 +23,21 @@ export default function Login() {
 			</Head>
 
 			<div className={loginStyles.login_wrapper}>
+				<label className={loginStyles.email_label} for="email">
+					Your email address
+				</label>
 				<input
 					type="text"
 					className={loginStyles.login_inputs}
 					value={email}
 					onChange={(e) => setEmail(e.target.value)}
-					placeholder="E-mail Address"
+					placeholder="Email Address"
 					title="Email address"
+					id="email"
 				/>
+				<label className={loginStyles.password_label} for="password">
+					Your password
+				</label>
 				<input
 					type="password"
 					className={loginStyles.login_inputs}
@@ -38,6 +45,7 @@ export default function Login() {
 					onChange={(e) => setPassword(e.target.value)}
 					placeholder="Password"
 					title="Password"
+					id="password"
 				/>
 				<div className={loginStyles.buttons_wrapper}>
 					<button

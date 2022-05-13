@@ -33,6 +33,10 @@ export default function Register() {
 				<meta property="og:title" content="Register page" key="title" />
 			</Head>
 			<div className={registerStyles.login_wrapper}>
+				<label className={registerStyles.fullname_label} for="full name">
+					Your full name
+				</label>
+
 				<input
 					type="text"
 					className={registerStyles.login_inputs}
@@ -40,7 +44,11 @@ export default function Register() {
 					onChange={(e) => setName(e.target.value)}
 					placeholder="Full name"
 					title="Full name"
+					id="full name"
 				/>
+				<label className={registerStyles.email_label} for="email address">
+					Your email address
+				</label>
 				<input
 					type="text"
 					className={registerStyles.login_inputs}
@@ -48,7 +56,11 @@ export default function Register() {
 					onChange={(e) => setEmail(e.target.value)}
 					placeholder="E-mail Address"
 					title="email address"
+					id="email address"
 				/>
+				<label className={registerStyles.password_label} for="password">
+					Your password
+				</label>
 				<input
 					type="password"
 					className={registerStyles.login_inputs}
@@ -56,6 +68,7 @@ export default function Register() {
 					onChange={(e) => setPassword(e.target.value)}
 					placeholder="Password"
 					title="Password"
+					id="password"
 				/>
 				<div className={registerStyles.buttons_wrapper}>
 					<button className={registerStyles.login_button} onClick={signUp}>
