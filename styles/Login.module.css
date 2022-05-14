@@ -31,10 +31,12 @@
 }
 .email_label {
 	font-size: 1.1rem;
+	margin-bottom: 5px;
 }
 .password_label {
 	font-size: 1.1rem;
-	margin-top: 15px;
+	margin-top: 20px;
+	margin-bottom: 5px;
 }
 .buttons_wrapper {
 	display: flex;

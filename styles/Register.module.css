@@ -31,13 +31,18 @@
 }
 .fullname_label {
 	font-size: 1.1rem;
+	margin-bottom: 5px;
 }
 .password_label {
 	font-size: 1.1rem;
+	margin-bottom: 5px;
+
 	margin-top: 20px;
 }
 .email_label {
 	font-size: 1.1rem;
+	margin-bottom: 5px;
+
 	margin-top: 20px;
 }
 .buttons_wrapper {
