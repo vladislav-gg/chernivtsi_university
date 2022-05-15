@@ -42,7 +42,6 @@ export default function Register() {
 					className={registerStyles.login_inputs}
 					value={name}
 					onChange={(e) => setName(e.target.value)}
-					placeholder="Full name"
 					title="Full name"
 					id="full name"
 				/>
@@ -54,7 +53,6 @@ export default function Register() {
 					className={registerStyles.login_inputs}
 					value={email}
 					onChange={(e) => setEmail(e.target.value)}
-					placeholder="E-mail Address"
 					title="email address"
 					id="email address"
 				/>
@@ -66,7 +64,6 @@ export default function Register() {
 					className={registerStyles.login_inputs}
 					value={password}
 					onChange={(e) => setPassword(e.target.value)}
-					placeholder="Password"
 					title="Password"
 					id="password"
 				/>

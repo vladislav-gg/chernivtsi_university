@@ -31,7 +31,6 @@ export default function Login() {
 					className={loginStyles.login_inputs}
 					value={email}
 					onChange={(e) => setEmail(e.target.value)}
-					placeholder="Email Address"
 					title="Email address"
 					id="email"
 				/>
@@ -43,7 +42,6 @@ export default function Login() {
 					className={loginStyles.login_inputs}
 					value={password}
 					onChange={(e) => setPassword(e.target.value)}
-					placeholder="Password"
 					title="Password"
 					id="password"
 				/>
