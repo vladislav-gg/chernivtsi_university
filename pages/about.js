@@ -15,7 +15,7 @@ export default function about() {
 							</Link>
 						</u>
 						. I had this idea for a project about 5 years ago, when I started
-						getting into web design and typography. At that time I was drawing
+						getting into web design and typography. At that time I was designing
 						websites in Photoshop and they were pretty mediocre, but I still
 						liked the process and learned a lot.
 						<p>
