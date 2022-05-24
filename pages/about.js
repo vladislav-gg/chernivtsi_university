@@ -31,7 +31,10 @@ export default function about() {
 							page. The website also has firebase authentication and I&apos;m
 							planning on adding dashboard for each signed-in user and some
 							additional features (like submitting homework and calendar for
-							incoming classes).
+							incoming classes). This is my personal project and Chernivtsi
+							University didn&apos;t hire me to develope a website for them. The
+							content (images, text etc.) is taken from multiple universities
+							around the globe.
 						</p>
 					</p>
 				</div>

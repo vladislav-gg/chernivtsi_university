@@ -29,9 +29,9 @@ export default function About() {
 								was designing websites in Photoshop and they were pretty
 								mediocre, but I still liked the process and learned a lot.
 								<p>
-									The project is built using Nextjs. For the first time
-									I&apos;ve fetched data from a custom database (data.js) and
-									used <em>map</em> function to loop through an array of objects
+									The project is built with Nextjs. For the first time I&apos;ve
+									fetched data from a custom database (data.js) and used{" "}
+									<em>map</em> function to loop through an array of objects
 									which generated 5 separate components with different content
 									(Majors component). I have also used Strapi as headless CMS
 									and fetched data from it&apos;s API at{" "}
@@ -41,7 +41,10 @@ export default function About() {
 									page. The website also has firebase authentication and
 									I&apos;m planning on adding dashboard for each signed-in user
 									and some additional features (like submitting homework and
-									calendar for incoming classes).
+									calendar for incoming classes). This is my personal project
+									and Chernivtsi University didn&apos;t hire me to develope a
+									website for them. The content (images, text etc.) is taken
+									from multiple universities around the globe.
 								</p>
 							</p>
 						</div>
