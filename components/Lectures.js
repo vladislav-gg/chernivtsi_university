@@ -48,7 +48,7 @@ export default function Lectures() {
 									<div className={lectureStyles.lecture_day}>Wed</div>
 								</div>
 							</div>
-							<Link href="/news/science">
+							<Link href="/news/science" passHref>
 								<a>
 									<div className={lectureStyles.lecture_image}>
 										<Image
@@ -57,9 +57,8 @@ export default function Lectures() {
 											layout="fill"
 											objectFit="cover"
 											className={lectureStyles.image}
+											priority={true}
 										></Image>
-
-										{/* <img className={lectureStyles.image} src='/images/emil_ruder.jpg'></img> */}
 									</div>
 								</a>
 							</Link>
@@ -70,7 +69,7 @@ export default function Lectures() {
 										Must be enrolled in design class
 									</div>
 								</div>
-								<Link href="/news/science">
+								<Link href="/news/science" passHref>
 									<div className={lectureStyles.lecture_title_p}>
 										<div className={lectureStyles.lecture_title}>
 											<a className={lectureStyles.styled_title}>
@@ -110,7 +109,7 @@ export default function Lectures() {
 									<div className={lectureStyles.lecture_day}>Sat</div>
 								</div>
 							</div>
-							<Link href="/news/science">
+							<Link href="/news/science" passHref>
 								<a>
 									<div className={lectureStyles.lecture_image}>
 										<Image
@@ -119,9 +118,8 @@ export default function Lectures() {
 											layout="fill"
 											objectFit="cover"
 											className={lectureStyles.image}
+											priority={true}
 										></Image>
-
-										{/* <img className={lectureStyles.image} src='/images/emil_ruder.jpg'></img> */}
 									</div>
 								</a>
 							</Link>
@@ -132,7 +130,7 @@ export default function Lectures() {
 										Must be enrolled in design class
 									</div>
 								</div>
-								<Link href="/news/science">
+								<Link href="/news/science" passHref>
 									<div className={lectureStyles.lecture_title_p}>
 										<div className={lectureStyles.lecture_title}>
 											<a className={lectureStyles.styled_title}>
@@ -172,7 +170,7 @@ export default function Lectures() {
 									<div className={lectureStyles.lecture_day}>Mon</div>
 								</div>
 							</div>
-							<Link href="/news/science">
+							<Link href="/news/science" passHref>
 								<a>
 									<div className={lectureStyles.lecture_image}>
 										<Image
@@ -181,9 +179,8 @@ export default function Lectures() {
 											layout="fill"
 											objectFit="cover"
 											className={lectureStyles.image}
+											priority={true}
 										></Image>
-
-										{/* <img className={lectureStyles.image} src='/images/emil_ruder.jpg'></img> */}
 									</div>
 								</a>
 							</Link>
@@ -194,7 +191,7 @@ export default function Lectures() {
 										Must be enrolled in design class
 									</div>
 								</div>
-								<Link href="/news/science">
+								<Link href="/news/science" passHref>
 									<div className={lectureStyles.lecture_title_p}>
 										<div className={lectureStyles.lecture_title}>
 											<a className={lectureStyles.styled_title}>
