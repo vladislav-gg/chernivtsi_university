@@ -100,6 +100,8 @@ export default function Navigation() {
 							<div
 								className={navdashStyles.dashboard_toggle}
 								style={{ display: dashboard ? "block" : "none" }}
+								aria-expanded={dashboard}
+								aria-haspopup="true"
 							>
 								<Link href="/dashboard">
 									<a className={navdashStyles.dashboard_links}>Dashboard</a>
