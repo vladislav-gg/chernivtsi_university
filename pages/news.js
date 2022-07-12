@@ -12,7 +12,6 @@ import loaderStyles from "../styles/Loderr.module.css";
 import { motion } from "framer-motion";
 
 export default function News_section({ data }) {
-	// const fetcher = (...args) => fetch(...args).then((res) => res.json());
 	const URL = "http://localhost:1337";
 	// const herokuURL = "https://chernivtsiuniversity.herokuapp.com";
 	// const [topics, setTopics] = useState(null);
@@ -68,8 +67,6 @@ export default function News_section({ data }) {
 }
 
 export async function getStaticProps() {
-	// Call an external API endpoint to get posts.
-	// You can use any data fetching library
 	const herokuURL = "https://chernivtsiuniversity.herokuapp.com";
 
 	const res = await fetch(herokuURL + "/api/topics?populate=%2A");
