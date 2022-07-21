@@ -94,6 +94,7 @@ export default function Navigation() {
 								className={navStyles.nav_links_1}
 								onClick={toggleDashboard}
 								ref={btnRef}
+								aria-label="profile"
 							>
 								{name}
 							</div>
