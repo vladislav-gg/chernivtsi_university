@@ -32,7 +32,6 @@ export default function Navigation() {
 			setName(data.name);
 		} catch (err) {
 			console.error(err);
-			// alert("An error occured while fetching user data");
 		}
 	};
 	useEffect(() => {
@@ -95,14 +94,15 @@ export default function Navigation() {
 								onClick={toggleDashboard}
 								ref={btnRef}
 								aria-label="profile"
+								aria-expanded={dashboard ? "true" : "false"}
 							>
 								{name}
 							</div>
 							<div
 								className={navdashStyles.dashboard_toggle}
 								style={{ display: dashboard ? "block" : "none" }}
-								aria-expanded={dashboard}
 								aria-haspopup="true"
+								aria-hidden={isShowing ? "false" : "true"}
 							>
 								<Link href="/dashboard">
 									<a className={navdashStyles.dashboard_links}>Dashboard</a>
