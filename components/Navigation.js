@@ -89,20 +89,22 @@ export default function Navigation() {
 					</Link>
 					{user && (
 						<div className={navdashStyles.profile_name}>
-							<div
-								className={navStyles.nav_links_1}
-								onClick={toggleDashboard}
-								ref={btnRef}
-								aria-label="profile"
-								aria-expanded={dashboard ? "true" : "false"}
-							>
-								{name}
-							</div>
+							<Link href="/">
+								<a
+									className={navStyles.nav_links_1}
+									onClick={toggleDashboard}
+									ref={btnRef}
+									aria-label="profile"
+									aria-expanded={dashboard ? "true" : "false"}
+								>
+									{name}
+								</a>
+							</Link>
 							<div
 								className={navdashStyles.dashboard_toggle}
 								style={{ display: dashboard ? "block" : "none" }}
 								aria-haspopup="true"
-								aria-hidden={isShowing ? "false" : "true"}
+								aria-hidden={dashboard ? "false" : "true"}
 							>
 								<Link href="/dashboard">
 									<a className={navdashStyles.dashboard_links}>Dashboard</a>
