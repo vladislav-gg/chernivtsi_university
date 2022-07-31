@@ -64,6 +64,18 @@ export default function Navigation() {
 		return () => document.body.removeEventListener("click", closeDashboard);
 	}, []);
 
+	useEffect(() => {
+		const escapeButton = (e) => {
+			if (e.key === "Escape") {
+				e.preventDefault();
+				setDashboard(false);
+			}
+		};
+		document.addEventListener("keydown", escapeButton);
+
+		return () => document.removeEventListener("keydown", escapeButton);
+	}, []);
+
 	return (
 		<motion.div
 			variants={variants}
